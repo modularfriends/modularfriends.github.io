@@ -1,0 +1,35 @@
+name: Newsletter FormSubmit Free Test (one-time)
+on:
+  push:
+    branches: [newsletter-zero-cost-prototype]
+    paths:
+      - .github/workflows/newsletter-formsubmit-smoketest.yml
+
+permissions:
+  contents: read
+
+jobs:
+  activation-smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Request test-only FormSubmit activation to official Modular Friends inbox
+        shell: bash
+        run: |
+          set -euo pipefail
+          status=$(curl --silent --show-error --location --max-time 35 \
+            --output /tmp/formsubmit-response.json \
+            --write-out '%{http_code}' \
+            --header 'Accept: application/json' \
+            --data-urlencode 'email=mfmodularfriends@gmail.com' \
+            --data-urlencode '_subject=[MF Internal Test] FormSubmit endpoint activation' \
+            --data-urlencode 'consent=Internal official-account test only. Not a public subscription.' \
+            --data-urlencode 'submission_type=internal_activation_test' \
+            --data-urlencode '_url=https://modularfriends.github.io/#newsletter' \
+            'https://formsubmit.co/ajax/mfmodularfriends@gmail.com')
+          echo "FormSubmit HTTP status: $status"
+          if [[ "$status" -lt 200 || "$status" -ge 300 ]]; then
+            echo "FormSubmit test did not receive an HTTP 2xx."
+            exit 1
+          fi
+          echo "Check the connected official Gmail for a FormSubmit activation or internal test email."
