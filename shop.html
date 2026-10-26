@@ -43,8 +43,42 @@ header.top{position:sticky;top:0;left:0;right:0;z-index:9999;background:#101010;
 <meta property="og:image" content="https://modularfriends.github.io/assets/modular-friends-share.jpg"/>
 <meta property="og:image:alt" content="Modular Friends — live modular synthesis and experimental music"/>
 <meta name="twitter:image" content="https://modularfriends.github.io/assets/modular-friends-share.jpg"/>
-</head><body>
-<header class="top"><a class="brand" href="index.html"><img alt="" src="assets/modular-friends-logo-white.png"/><span>MODULAR FRIENDS</span></a><nav aria-label="Shop and media navigation"><a href="index.html">HOME ↗</a><a href="index.html#upcoming">UPCOMING</a><a href="#merch">MERCH</a><a href="#tickets">TICKETS</a><a href="#audio">AUDIO</a></nav></header>
+
+<style id="mf-v16-newsletter-style">
+/* V16 / Newsletter: black-and-white, consistent on both site pages */
+.mf-newsletter{background:#ebebe7;color:#111;padding:0 0 clamp(66px,9vw,125px);font-family:Arial,Helvetica,sans-serif}
+.mf-newsletter *{box-sizing:border-box}
+.mf-newsletter-inner{width:min(100% - 9vw,1440px);margin:0 auto}
+.mf-newsletter-top{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;border-top:1px solid #111;padding:19px 0;font-size:10px;font-weight:800;letter-spacing:.13em}
+.mf-newsletter-layout{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(300px,.92fr);gap:clamp(38px,8vw,150px);padding-top:50px}
+.mf-newsletter-overline{font-size:10px;letter-spacing:.18em;font-weight:800;margin:0 0 22px}
+.mf-newsletter-copy h2{font-size:clamp(54px,7.8vw,119px);font-weight:850;line-height:.87;letter-spacing:-.085em;margin:0 0 30px}
+.mf-newsletter-lead{font-size:clamp(17px,1.6vw,22px);line-height:1.48;max-width:590px;letter-spacing:-.02em;margin:0}
+.mf-newsletter-topics{display:flex;flex-wrap:wrap;gap:7px;margin-top:34px}
+.mf-newsletter-topics span{border:1px solid #aaa;padding:9px 10px;font-size:9px;font-weight:800;letter-spacing:.09em}
+.mf-newsletter-signup{align-self:start;background:#111;color:#f5f5f3;padding:clamp(22px,3.3vw,48px)}
+.mf-newsletter-titleline{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #666;padding-bottom:17px;font-size:12px;letter-spacing:.12em;font-weight:800}
+.mf-newsletter-titleline span{font-size:28px;font-weight:400;letter-spacing:0}
+.mf-newsletter-form-host{padding:27px 0 18px;min-height:145px}
+.mf-newsletter-label{font-size:9px;font-weight:800;letter-spacing:.14em;display:block;margin-bottom:13px}
+.mf-newsletter-preview-row{display:flex;gap:0;border-bottom:1px solid #8a8a8a}
+.mf-newsletter-preview-row input{font:inherit;min-width:0;flex:1;background:transparent;border:0;color:#fff;font-size:15px;padding:12px 5px 14px 0}
+.mf-newsletter-preview-row input::placeholder{color:#999}
+.mf-newsletter-preview-row button{font:inherit;border:0;background:#777;color:#ddd;font-size:10px;font-weight:800;letter-spacing:.08em;padding:0 14px;cursor:not-allowed}
+.mf-newsletter-pending{font-size:12px;color:#ccc;line-height:1.55;margin:14px 0 0}
+.mf-newsletter-privacy{font-size:11px;line-height:1.6;color:#bcbcbc;margin:0 0 25px}
+.mf-newsletter-privacy a{color:#fff;text-decoration:underline;text-underline-offset:4px}
+.mf-newsletter-instagram{display:block;border-top:1px solid #555;padding-top:19px;color:white;text-decoration:none;font-weight:800;letter-spacing:.07em;font-size:10px;line-height:1.5}
+.mf-newsletter-instagram:hover,.mf-newsletter-instagram:focus-visible{text-decoration:underline;text-underline-offset:4px}
+.mf-newsletter-iframe{display:block;width:100%;height:500px;background:#fff;border:0;border-radius:0}
+.mf-newsletter-form-host.is-connected{padding:24px 0 15px}
+.mf-newsletter-form-note{font-size:12px;color:#eee;line-height:1.5;margin:0 0 12px}
+@media(max-width:960px){.mf-newsletter-layout{grid-template-columns:1fr;gap:38px;padding-top:25px}.mf-newsletter-signup{max-width:720px}.mf-newsletter-copy h2{font-size:clamp(56px,10vw,95px)}}
+@media(max-width:600px){.mf-newsletter-inner{width:calc(100% - 40px)}.mf-newsletter{padding-bottom:60px}.mf-newsletter-top{font-size:9px}.mf-newsletter-layout{padding-top:25px;gap:34px}.mf-newsletter-copy h2{font-size:clamp(54px,12.8vw,75px)}.mf-newsletter-signup{padding:22px}.mf-newsletter-preview-row button{padding:0 8px;font-size:9px}.mf-newsletter-iframe{height:540px}}
+@media(max-width:350px){.mf-newsletter-copy h2{font-size:48px}.mf-newsletter-preview-row input{font-size:12px}}
+</style>
+<meta name="author" content="Modular Friends"/><meta name="contact" content="mfmodularfriends@gmail.com"/></head><body>
+<header class="top"><a class="brand" href="index.html"><img alt="" src="assets/modular-friends-logo-white.png"/><span>MODULAR FRIENDS</span></a><nav aria-label="Shop and media navigation"><a href="index.html">HOME ↗</a><a href="index.html#upcoming">UPCOMING</a><a href="#merch">MERCH</a><a href="#tickets">TICKETS</a><a href="#audio">AUDIO</a><a href="#newsletter">UPDATES</a></nav></header>
 <main><section class="intro"><div class="wrap"><span class="eyebrow">MODULAR FRIENDS / TBILISI</span><h1><span>SHOP &amp;</span><span>MEDIA.</span></h1><p class="lead">Objects, event access and a future home for recordings and collaborations. Supporting the people who make it.</p><div class="meta"><span>THE COLLECTIVE'S SMALLER WORLD</span><span>INQUIRIES VIA INSTAGRAM / NO ON-SITE CHECKOUT</span></div></div></section>
 <section class="sec"><div class="wrap"><div class="secmark"><span>001 / DIRECT INQUIRIES</span><span>MERCH &amp; EVENTS</span></div><h2 class="heading">MADE FOR<br/>THE COMMUNITY.</h2><div class="panels">
 <article class="panel merch-panel" id="merch">
@@ -58,8 +92,33 @@ header.top{position:sticky;top:0;left:0;right:0;z-index:9999;background:#101010;
 </article>
 <article class="panel dark" id="tickets"><small>LIVE / TICKETS &amp; SUPPORT</small><h3>EVENT<br/>TICKETS.</h3><p>Find announcements for upcoming gatherings and ask about tickets on the official Modular Friends Instagram page. Direct ticket checkout will be considered later.</p><a class="button" href="https://www.instagram.com/modular_friends/" rel="noopener noreferrer" target="_blank">TICKET INQUIRIES VIA INSTAGRAM ↗</a></article>
 </div></div></section>
-<section class="simple" id="audio"><div class="wrap"><div class="secmark"><span>002 / SOUND &amp; DOCUMENTATION</span><span>IN DEVELOPMENT</span></div><h2 class="heading">LISTEN<br/>TOGETHER.</h2><div class="archive-grid"><article class="item"><span class="soon">PLANNED · NOT YET LIVE</span><h3>AUDIO &amp;<br/>RELEASES.</h3><p>A possible shared Bandcamp home for artist uploads, listening sessions and releases connected to Modular Friends. Artist pages will be linked when the channel is ready.</p></article><article class="item"><span class="soon">PLANNED · NOT YET LIVE</span><h3>VIDEO<br/>ARCHIVE.</h3><p>Future audiovisual documentation, live sets, workshops and conversations, potentially through a dedicated YouTube channel.</p></article></div><p class="notice">No dedicated Bandcamp or YouTube address is presented as active yet. This page will link to verified official channels after launch.</p></div></section></main>
-<footer class="foot"><div class="wrap"><span class="eyebrow">QUESTIONS / IDEAS / COLLABORATIONS</span><h2>LET'S MAKE<br/>MORE POSSIBLE.</h2><a class="footlink" href="https://www.instagram.com/modular_friends/" rel="noopener noreferrer" target="_blank">MESSAGE MODULAR FRIENDS ↗</a><div class="mini"><img alt="Modular Friends mark" src="assets/modular-friends-logo-white.png"/><span>© 2026 MODULAR FRIENDS · TBILISI</span><a href="index.html">BACK TO THE MAIN SITE ↑</a></div></div></footer>
+<section class="simple" id="audio"><div class="wrap"><div class="secmark"><span>002 / SOUND &amp; DOCUMENTATION</span><span>IN DEVELOPMENT</span></div><h2 class="heading">LISTEN<br/>TOGETHER.</h2><div class="archive-grid"><article class="item"><span class="soon">PLANNED · NOT YET LIVE</span><h3>AUDIO &amp;<br/>RELEASES.</h3><p>A possible shared Bandcamp home for artist uploads, listening sessions and releases connected to Modular Friends. Artist pages will be linked when the channel is ready.</p></article><article class="item"><span class="soon">PLANNED · NOT YET LIVE</span><h3>VIDEO<br/>ARCHIVE.</h3><p>Future audiovisual documentation, live sets, workshops and conversations, potentially through a dedicated YouTube channel.</p></article></div><p class="notice">No dedicated Bandcamp or YouTube address is presented as active yet. This page will link to verified official channels after launch.</p></div></section>
+<!-- V16: official mailing list. The email capture iframe is enabled only after a hosted Brevo form is configured. -->
+<section class="mf-newsletter" id="newsletter" aria-labelledby="mf-newsletter-title">
+  <div class="mf-newsletter-inner">
+    <div class="mf-newsletter-top"><span>010 / THE MAILING LIST</span><span>MODULAR FRIENDS / UPDATES</span></div>
+    <div class="mf-newsletter-layout">
+      <div class="mf-newsletter-copy">
+        <p class="mf-newsletter-overline">STAY IN THE LOOP</p>
+        <h2 id="mf-newsletter-title">DON'T MISS<br>THE NEXT ONE.</h2>
+        <p class="mf-newsletter-lead">Sign up for news from Modular Friends — live performances, workshops, lectures, festivals, listening sessions and other gatherings.</p>
+        <div class="mf-newsletter-topics" aria-label="Updates you can expect"><span>LIVE MUSIC</span><span>WORKSHOPS</span><span>FESTIVALS</span><span>TALKS &amp; LECTURES</span><span>COMMUNITY</span></div>
+      </div>
+      <div class="mf-newsletter-signup">
+        <div class="mf-newsletter-titleline">JOIN THE LIST <span aria-hidden="true">↘</span></div>
+        <div data-mf-newsletter-form class="mf-newsletter-form-host">
+          <label class="mf-newsletter-label" for="mf-preview-email">YOUR EMAIL ADDRESS</label>
+          <div class="mf-newsletter-preview-row"><input id="mf-preview-email" type="email" placeholder="you@example.com" disabled autocomplete="email" aria-describedby="mf-preview-status"><button type="button" disabled>SUBSCRIBE ↗</button></div>
+          <p id="mf-preview-status" class="mf-newsletter-pending" role="status">Mailing-list registration is being connected. This form is not accepting addresses yet.</p>
+        </div>
+        <p class="mf-newsletter-privacy">Only Modular Friends updates. Confirmation by email, and an unsubscribe link in every newsletter. <a href="privacy.html">Privacy information ↗</a></p>
+        <a class="mf-newsletter-instagram" href="https://www.instagram.com/modular_friends/" target="_blank" rel="noopener noreferrer">IN THE MEANTIME, FOLLOW @MODULAR_FRIENDS ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span class="eyebrow">QUESTIONS / IDEAS / COLLABORATIONS</span><h2>LET'S MAKE<br/>MORE POSSIBLE.</h2><a class="footlink" href="https://www.instagram.com/modular_friends/" rel="noopener noreferrer" target="_blank">MESSAGE MODULAR FRIENDS ↗</a><p class="mf-email-contact"><a href="mailto:mfmodularfriends@gmail.com" style="color:inherit;text-decoration:underline;text-underline-offset:4px">mfmodularfriends@gmail.com ↗</a></p><div class="mini"><img alt="Modular Friends mark" src="assets/modular-friends-logo-white.png"/><span>© 2026 MODULAR FRIENDS · TBILISI</span><a href="index.html">BACK TO THE MAIN SITE ↑</a></div></div></footer>
 <script>
 (function(){
   const rail=document.querySelector('.merch-catalogue');
@@ -73,4 +132,4 @@ header.top{position:sticky;top:0;left:0;right:0;z-index:9999;background:#101010;
     });
   });
 })();
-</script></body></html>
+</script><script src="newsletter-config.js?v=18"></script><script src="newsletter.js?v=18" defer></script></body></html>
