@@ -29,6 +29,20 @@ Do not send emails for typos, routine site edits or unverified future plans. Com
 4. Check mobile rendering, dates, artist names, links, unsubscribe and sender identity.
 5. Send to the confirmed list in Brevo and record the campaign date/URL to avoid duplicates.
 
-## Provider and configuration
+## Current publishing state (27 October 2026)
 
-The site reads `window.MF_NEWSLETTER.formUrl` from `newsletter-config.js`. Provide the HTTPS `https://sibforms.com/serve/...` link for the working Brevo double-opt-in iframe, then verify subscriptions end-to-end. Never put the Brevo API key or private credentials in the public repository. Sending campaigns requires a connected provider account; creating this template does not automatically broadcast updates.
+The public site is restored to **Luma-only** for calendar follows: `https://luma.com/modularfriends`. There is no active embedded email form or independent subscriber database on the site. Do not claim that it is collecting newsletter emails.
+
+## Evaluating a permanent no-trial free solution
+
+EmailOctopus Starter is the preferred candidate, subject to a real account and end-to-end tests. On the published October 2026 free terms: no trial or credit card required; up to 2,500 subscribers, 10,000 emails/month, one inline form, one landing page, and up to three automations. It offers JavaScript embed forms and optional double opt-in (not enabled by default). Kit's explicitly Free plan is another option: up to 10,000 subscribers, unlimited broadcasts, but RSS campaigns and workflows need paid tiers.
+
+No provider has been selected or connected. Do not embed any script or activate a public signup until:
+1. A Modular Friends account on the provider is operational and free after 14 days, with a real test list.
+2. The inline form is added to a test page and tried on iOS Safari, Chrome and Firefox.
+3. A test email is successfully submitted, the confirmation email arrives, and subscriber status changes from Pending to Subscribed.
+4. An actual test newsletter arrives, and unsubscribe works.
+5. Verify any sender rewrite caused by using mfmodularfriends@gmail.com as the sender. An authenticated custom domain is preferable but not a precondition for exploring the free plan.
+6. Only then replace the Luma signup CTA with a working embedded provider form; keep Luma separately for calendar/events.
+
+Never put provider API tokens or personal mailing-list addresses in this public repository.
