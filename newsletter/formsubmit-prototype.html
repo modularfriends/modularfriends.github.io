@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Modular Friends / Newsletter Test</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#111;color:#f4f4ef;font:14px/1.6 Helvetica,Arial,sans-serif}
+    main{max-width:620px;margin:auto;padding:80px 25px}h1{font-size:clamp(55px,12vw,93px);line-height:.88;letter-spacing:-.08em;margin:30px 0}
+    .eyebrow{font-weight:bold;letter-spacing:.17em;font-size:10px}p{max-width:540px;color:#bbb}
+    input[type=email]{border:0;border-bottom:1px solid #f4f4ef;background:transparent;color:#fff;font:inherit;padding:16px 4px;width:100%;border-radius:0;font-size:18px}
+    label{display:block}.consent{display:flex;align-items:flex-start;gap:10px;margin:25px 0;font-size:12px;color:#ccc}
+    button{border:1px solid #fff;background:#fff;color:#111;padding:16px 28px;font:700 12px Helvetica,Arial,sans-serif;letter-spacing:.1em;cursor:pointer}
+    button:disabled{opacity:.4;cursor:progress}#status{min-height:3em;margin-top:20px}a{color:inherit}
+  </style>
+</head>
+<body>
+<main>
+  <span class="eyebrow">MODULAR FRIENDS / INTERNAL TEST ONLY</span>
+  <h1>DON'T MISS<br>WHAT'S NEXT.</h1>
+  <p>Updates about live performances, festivals, workshops, lectures, YouTube videos, Bandcamp and Spotify releases, merchandise and important community news.</p>
+  <form id="subscribe" method="POST" action="https://formsubmit.co/ajax/mfmodularfriends@gmail.com">
+    <label for="email">EMAIL ADDRESS</label>
+    <input id="email" name="email" type="email" autocomplete="email" placeholder="Your email address" maxlength="254" required />
+    <input type="hidden" name="_subject" value="[Modular Friends] Newsletter subscription request" />
+    <input type="hidden" name="_url" value="https://modularfriends.github.io/#newsletter" />
+    <input type="hidden" name="submission_type" value="newsletter_opt_in" />
+    <label class="consent"><input type="checkbox" name="consent" value="I explicitly consent to Modular Friends updates and understand I can unsubscribe at any time." required /> <span>I agree to receive Modular Friends email updates about events, music, videos, merchandise and community news. I can unsubscribe at any time. <a href="/privacy.html">Privacy</a></span></label>
+    <button id="submit" type="submit">SUBSCRIBE</button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </form>
+  <p>Existing calendar subscribers can continue following <a href="https://luma.com/modularfriends">the official Luma calendar</a>.</p>
+</main>
+<script>
+  (() => {
+    const form=document.getElementById('subscribe');
+    const button=document.getElementById('submit');
+    const status=document.getElementById('status');
+    form.addEventListener('submit',async e=>{
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+      button.disabled=true;
+      status.textContent='SUBMITTING…';
+      try{
+        const response=await fetch(form.action,{
+          method:'POST',
+          body:new FormData(form),
+          headers:{Accept:'application/json'}
+        });
+        const out=await response.json();
+        if(!response.ok || !out.success)throw new Error('Subscription form was not accepted.');
+        status.textContent='Request received. Your subscription is not active until confirmation.';
+        form.reset();
+      }catch(_){
+        status.textContent='Unable to submit right now. Please use our calendar Follow button instead.';
+      }finally{button.disabled=false}
+    });
+  })();
+</script>
+</body></html>
