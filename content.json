@@ -1,0 +1,79 @@
+{
+  "name": "Modular Friends",
+  "location": "Tbilisi, Georgia",
+  "tagline": "More than sound.",
+  "short_description": "Modular Friends is a Tbilisi-based community and recurring event series bringing together modular synthesis, experimental live improvisation, and collaborations with visual artists.",
+  "about": "A meeting point for musicians, visual artists and curious audiences. Each edition creates room for new connections between instruments, people and spaces.",
+  "formats": [
+    {
+      "title": "Live sound",
+      "description": "Modular synthesis, experimental electronics and improvisation."
+    },
+    {
+      "title": "Visual dialogue",
+      "description": "Collaborative performances and audiovisual experiments."
+    },
+    {
+      "title": "Shared knowledge",
+      "description": "Workshops, conversations and introductions to modular synthesis."
+    }
+  ],
+  "archive_intro": "An edition-by-edition archive of performances, line-ups and visual-artist credits is being assembled from original event documentation.",
+  "events": [
+    {
+      "date": "17 May 2026",
+      "title": "Modular Friends 011 — Synthesia Lab",
+      "description": "Announced as Modular Friends 011 at Synthesia Lab, featuring modular synthesis, live improvisation and audiovisual collaborations.",
+      "source_label": "Billboard Georgia",
+      "source_url": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
+      "confirmed": true,
+      "artists": "Neroli Kid / Giga Baindurashvili; William Tavadze; Lado Barnovi; Vaska; TeTe / Tetso / Vazha Marr; Masa Trippin / Shota / Wrong Fingers; AGAVA / Wayward Atom / Spilled Ambiences; Eddie Strxm; jam guests Marching Dog and Tamarma.",
+      "visual_artists": "Skywalker; TusY; Progenol; Nenealism / Jamanita / Yoyo; She nocturne / Sophie Gvelkuashvili."
+    },
+    {
+      "date": "10 Oct 2026",
+      "title": "Modular Friends × Space One — Left Bank",
+      "description": "Modular Friends × Space One at Left Bank, with an Agava live performance and guest selectors.",
+      "source_label": "Resident Advisor",
+      "source_url": "https://ra.co/events/2553193",
+      "confirmed": true,
+      "artists": "Agava (live); Dave Forest; Suckingup$un; Quentin Bachet; Saint Kelevra (Space One line-up)."
+    },
+    {
+      "date": "24 Oct 2026",
+      "title": "Modular Friends at Jazz Club 1984",
+      "description": "Modular Friends performed an opening set at 22:00, followed by a separate experimental improvisation by NIKAKOI, Rezo Kiknadze and Nika Gabadze at 23:30.",
+      "source_label": "Jazz Club 1984 event notice",
+      "source_url": "https://happeningnext.com/event/nikakoi-kiknadze-gabadze-andamp-modular-friends-at-1984-eid3a0e7e8bag",
+      "confirmed": true,
+      "artists": "Modular Friends; NIKAKOI; Rezo Kiknadze; Nika Gabadze (separate sets)."
+    }
+  ],
+  "instagram_url": "https://www.instagram.com/modular_friends/",
+  "instagram_handle": "@modular_friends",
+  "updated": "2026-10-26",
+  "site_url": "https://modularfriends.github.io",
+  "references": [
+    {
+      "title": "Billboard Georgia — Modular Friends 011",
+      "kind": "Editorial coverage",
+      "date": "12 May 2026",
+      "url": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
+      "description": "A feature introducing the project and announcing edition 011 at Synthesia Lab."
+    },
+    {
+      "title": "Resident Advisor — Modular Friends × Space One",
+      "kind": "Event listing",
+      "date": "10 October 2026",
+      "url": "https://ra.co/events/2553193",
+      "description": "An international electronic-music listing for the event at Left Bank, Tbilisi."
+    },
+    {
+      "title": "Left Bank — Space One × Modular Friends",
+      "kind": "Venue listing",
+      "date": "10 October 2026",
+      "url": "https://leftbank.club/search?search=1",
+      "description": "Venue listing with the Modular Friends collaboration and line-up."
+    }
+  ]
+}
