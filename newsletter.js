@@ -1,23 +1,2 @@
-// Modular Friends newsletter — embeds a verified provider signup form when configured.
-// Without a validated form URL, the preview remains disabled so no email is falsely accepted.
-(function(){
-  'use strict';
-  const cfg = window.MF_NEWSLETTER || {};
-  const raw = cfg.formUrl;
-  const host = document.querySelector('[data-mf-newsletter-form]');
-  if (!raw || !host) return;
-  let parsed;
-  try { parsed = new URL(raw); } catch (_) { return; }
-  const hostname = parsed.hostname.toLowerCase();
-  if (parsed.protocol !== 'https:' || parsed.username || parsed.password ||
-      !(hostname === 'sibforms.com' || hostname.endsWith('.sibforms.com')) ||
-      !parsed.pathname.startsWith('/serve/')) return;
-  const frame = document.createElement('iframe');
-  frame.className = 'mf-newsletter-iframe';
-  frame.title = 'Modular Friends email newsletter subscription';
-  frame.loading = 'lazy';
-  frame.referrerPolicy = 'strict-origin-when-cross-origin';
-  frame.src = parsed.href;
-  host.replaceChildren(frame);
-  host.classList.add('is-connected');
-})();
+// Public Luma calendar links work without JavaScript; configuration can update them.
+(function(){'use strict';const raw=(window.MF_NEWSLETTER||{}).calendarUrl;if(!raw)return;try{const u=new URL(raw);if(u.protocol!=='https:'||u.hostname!=='luma.com'||u.username||u.password||u.pathname==='/')return;document.querySelectorAll('[data-mf-calendar-link]').forEach(a=>{a.href=u.href;});}catch(e){}})();
