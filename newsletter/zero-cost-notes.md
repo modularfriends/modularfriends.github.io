@@ -11,3 +11,9 @@ This branch prototypes an on-site email capture for Modular Friends through Form
 - The live site's Luma fallback remains active until that point.
 
 The smoke-test workflow triggers a SINGLE consented submission using only the community's own official public email address, with no private person data. Once completed, remove the workflow to avoid unintended retries.
+
+## Smoke-test outcome (27 Oct 2026)
+
+GitHub Actions run `40418833941` used a free standard runner and POSTed only the official Modular Friends test address to `https://formsubmit.co/ajax/mfmodularfriends@gmail.com`. The provider replied **HTTP 403 Forbidden**. No activation email was received in the official inbox. Therefore FormSubmit is **not validated** for our environment and is **NOT enabled on the public site**. Do not import contacts or tell anyone the form is functional. The Luma calendar remains the active working public subscription path.
+
+GitHub Pages deployment to the public main branch succeeded after the copy update that explains all-news Luma newsletters (run `40419029310`).
