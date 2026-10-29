@@ -27,3 +27,6 @@ h1,h2,h3{overflow-wrap:normal;word-break:normal;hyphens:none}
 
 #contact h2{max-width:100%;font-size:clamp(48px,7.8vw,112px)}
 @media(max-width:700px){.upcoming-intro h2{font-size:clamp(28px,8.2vw,56px)!important}#festival{padding-bottom:24px!important}.festival-photo{margin-top:28px}}
+
+/* Slightly tighter hero title, with distinct letterforms. */
+.hero h1{letter-spacing:-.025em!important}
