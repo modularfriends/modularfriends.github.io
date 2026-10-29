@@ -18,3 +18,12 @@ body:has(.intro h1){padding-top:var(--header-height,84px)}.intro:has(h1){padding
 @media(max-width:900px){header.top{gap:16px}header.top nav{gap:8px 12px!important}header.top nav a{font-size:9px!important}}
 @media(max-width:700px){:root{--section-space:64px}header.top{padding:12px 18px!important;gap:12px}header.top .brand{font-size:9px;gap:8px}header.top .brand img{width:30px;height:34px}header.top nav{max-width:64%;gap:7px 10px!important}header.top nav a{font-size:8px!important}.hero h1,.intro h1{font-size:clamp(52px,14vw,92px)}h2,.artist-header h2,.program-heading h2,.festival h2,.upcoming-intro h2,.visual-intro h2,.mf-newsletter-copy h2,.signal h2,.press-refs h2,.heading,.foot h2{font-size:clamp(44px,11vw,70px)!important}.people-filter{grid-column:1/-1}.panel{padding:24px}.panel h3,.item h3{font-size:clamp(32px,8vw,52px)}.intro:has(h1){padding-top:64px;padding-bottom:64px}.secmark,.section-tag{gap:18px}.shop-section h2{margin:32px 0}.artist-card h3{min-height:2.3em}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Keep complete words intact; tune long headings to their column. */
+h1,h2,h3{overflow-wrap:normal;word-break:normal;hyphens:none}
+.upcoming-intro h2{font-size:clamp(36px,5.8vw,88px)!important}
+.upcoming-intro h2 span{display:block;white-space:nowrap}
+#festival{padding-bottom:40px!important}.festival-photo{margin-top:40px}
+
+#contact h2{max-width:100%;font-size:clamp(48px,7.8vw,112px)}
+@media(max-width:700px){.upcoming-intro h2{font-size:clamp(28px,8.2vw,56px)!important}#festival{padding-bottom:24px!important}.festival-photo{margin-top:28px}}
