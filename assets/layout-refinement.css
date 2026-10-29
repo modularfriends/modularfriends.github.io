@@ -1,0 +1,20 @@
+/* Shared layout system — Modular Friends */
+html{scroll-padding-top:0!important}
+:root{--section-space:96px;--anchor-inset:122px}
+header.top{height:auto;min-height:74px;display:flex;align-items:center!important;justify-content:space-between;padding:18px 4.5vw!important;gap:24px;position:fixed!important;top:0;left:0;right:0;z-index:9999;background:#101010!important;color:white;border-bottom:1px solid #494949}
+header.top .brand{flex-shrink:0;gap:12px;font-size:11px;letter-spacing:.14em}header.top .brand img{width:37px;height:42px;object-fit:contain}
+header.top nav{display:flex;flex-wrap:wrap;justify-content:flex-end;max-width:1040px;gap:12px 18px!important}header.top nav a{font-size:10px!important;line-height:1.4;letter-spacing:.06em;white-space:nowrap;color:white}
+section[id]{scroll-margin-top:0!important;padding-top:var(--anchor-inset)!important;padding-bottom:var(--section-space)!important}
+section[id] .section-tag{padding-top:0}section[id] .secmark{padding-top:0}
+h1,h2,h3{overflow-wrap:anywhere}
+.hero h1,.intro h1{font-size:clamp(72px,12vw,190px);letter-spacing:normal!important;line-height:.9;margin:28px 0 36px}
+.hero h1 span,.intro h1 span{display:block}
+h2,.artist-header h2,.program-heading h2,.festival h2,.upcoming-intro h2,.visual-intro h2,.mf-newsletter-copy h2,.signal h2,.press-refs h2,.heading,.foot h2{font-size:clamp(52px,7.8vw,112px);letter-spacing:normal!important;line-height:1!important}
+.artist-header>*,.visual-intro>*,.mf-newsletter-layout>*,.panel,.item{min-width:0}
+.artist-card .artist-info{padding:12px 2px 0}.artist-card h3,.visual-profile h3{min-height:2.3em;line-height:1.15;margin:8px 0 10px}.artist-card .artist-genres,.visual-profile .artist-genres{min-height:2.7em;margin:0 0 10px;line-height:1.35}.artist-card details{padding:12px 0}.artist-card details p{padding-top:12px}.artist-card .artist-link{padding-top:8px}
+.people-controls{align-items:end}.people-filter{height:49px;border:1px solid #222;position:relative;background:transparent;display:flex;align-items:center;padding:0 12px;gap:12px}.people-filter label{margin:0;white-space:nowrap;font-size:9px}.people-filter select{appearance:none;-webkit-appearance:none;min-height:47px;border:0;background:transparent;padding:0 20px 0 0;flex:1;min-width:0;font-size:13px;border-radius:0}.people-filter:after{content:'⌄';position:absolute;right:10px;pointer-events:none}.people-controls .people-shuffle,.people-filter{border-color:#222;border-radius:0}
+.shop-section{background:#ebebe7;color:#111}.shop-section h2{margin:40px 0}.shop-section a{display:inline-block;border:1px solid #111;padding:18px 24px;font-size:12px;font-weight:700}
+body:has(.intro h1){padding-top:var(--header-height,84px)}.intro:has(h1){padding-top:96px;padding-bottom:96px}.panel h3,.item h3{letter-spacing:normal;line-height:1.1}.panels{align-items:stretch}.panel{padding:32px}.heading{margin:48px 0}.secmark,.section-tag{font-size:10px;line-height:1.4}
+@media(max-width:900px){header.top{gap:16px}header.top nav{gap:8px 12px!important}header.top nav a{font-size:9px!important}}
+@media(max-width:700px){:root{--section-space:64px}header.top{padding:12px 18px!important;gap:12px}header.top .brand{font-size:9px;gap:8px}header.top .brand img{width:30px;height:34px}header.top nav{max-width:64%;gap:7px 10px!important}header.top nav a{font-size:8px!important}.hero h1,.intro h1{font-size:clamp(52px,14vw,92px)}h2,.artist-header h2,.program-heading h2,.festival h2,.upcoming-intro h2,.visual-intro h2,.mf-newsletter-copy h2,.signal h2,.press-refs h2,.heading,.foot h2{font-size:clamp(44px,11vw,70px)!important}.people-filter{grid-column:1/-1}.panel{padding:24px}.panel h3,.item h3{font-size:clamp(32px,8vw,52px)}.intro:has(h1){padding-top:64px;padding-bottom:64px}.secmark,.section-tag{gap:18px}.shop-section h2{margin:32px 0}.artist-card h3{min-height:2.3em}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
