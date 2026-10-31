@@ -464,14 +464,22 @@ header.top nav a{font-size:11px!important;padding:13px 0;border-bottom:1px solid
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('is-open')){close();button.focus()}});
   document.addEventListener('click',e=>{if(!e.target.closest('header.top'))close()});
   matchMedia('(max-width:770px)').addEventListener('change',close);
-  // Advance the first four visual collaborators once per Tbilisi calendar quarter.
+  // Shuffle visual collaborators once per page load; keep Show More stable.
   const grid=document.getElementById('visualArtistGrid');
+  if(!grid)return;
   const cards=[...grid.children];
-  const parts=new Intl.DateTimeFormat('en-US',{timeZone:'Asia/Tbilisi',year:'numeric',month:'numeric'}).formatToParts(new Date());
-  const year=Number(parts.find(p=>p.type==='year').value);
-  const month=Number(parts.find(p=>p.type==='month').value);
-  const quarter=year*4+Math.floor((month-1)/3);
-  const offset=((quarter-(2026*4+3))*4%cards.length+cards.length)%cards.length;
-  [...cards.slice(offset),...cards.slice(0,offset)].forEach((card,i)=>{grid.appendChild(card);card.querySelector('.artist-count').textContent=String(i+1).padStart(2,'0')+' / '+String(cards.length).padStart(2,'0')});
+  for(let i=cards.length-1;i>0;i--){
+    const j=Math.floor(Math.random()*(i+1));
+    [cards[i],cards[j]]=[cards[j],cards[i]];
+  }
+  const key='mf-visual-first-four';
+  const firstFour=()=>cards.slice(0,4).map(c=>c.id).sort().join('|');
+  try{
+    if(cards.length>4 && sessionStorage.getItem(key)===firstFour()){
+      [cards[0],cards[4]]=[cards[4],cards[0]];
+    }
+    sessionStorage.setItem(key,firstFour());
+  }catch{} // Random ordering also works when browser storage is unavailable.
+  cards.forEach((card,i)=>{grid.appendChild(card);card.querySelector('.artist-count').textContent=String(i+1).padStart(2,'0')+' / '+String(cards.length).padStart(2,'0')});
 })();
 </script></body></html>
