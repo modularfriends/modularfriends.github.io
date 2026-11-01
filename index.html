@@ -356,6 +356,44 @@ h3,.artist-card h3,.visual-profile h3,.press-reference strong{letter-spacing:nor
 #artists .people-select-chevron{font-size:16px;line-height:1}
 #artists .people-select select{position:absolute;inset:0;opacity:0;width:100%;height:100%;min-height:0;border:0;padding:0;cursor:pointer;outline:0}
 #artists .people-search:has(input:focus-visible)>label,#artists .people-filter:has(select:focus-visible)>label{text-decoration:underline;text-underline-offset:4px}
+</style><style id="mf-balanced-upcoming">
+/* One compact left-aligned poster/text layout for every upcoming event. */
+#upcoming .upcoming-intro,#upcomingEventList{max-width:1000px}
+#upcoming .upcoming-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);align-items:end;gap:28px;margin:26px 0}
+#upcoming .upcoming-intro h2{font-size:clamp(36px,4.5vw,60px)!important;line-height:1!important;margin:0}
+#upcoming .upcoming-intro>p{margin:0;font-size:14px;line-height:1.5}
+#upcoming .upcoming-event-layout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:stretch;padding-top:20px}
+#upcoming .upcoming-event-layout .random-fridays-poster{width:240px;max-width:240px!important;margin:0!important;align-self:start}
+#upcoming .random-fridays-poster a{display:block}
+#upcoming .random-fridays-poster img{width:100%;height:auto;aspect-ratio:4/5;object-fit:contain}
+#upcoming .upcoming-card{display:flex;flex-direction:column;align-items:stretch;min-height:300px;gap:12px;padding:0;border:0}
+#upcoming .upcoming-card>div{display:flex;flex-direction:column;flex:1;min-width:0}
+#upcoming .upcoming-card time{font-size:10px;line-height:1.5;letter-spacing:.08em}
+#upcoming .upcoming-card small{font-size:10px;line-height:1.4;letter-spacing:.1em}
+#upcoming .upcoming-card h3{font-size:clamp(21px,2vw,27px);line-height:1.15;letter-spacing:normal;margin:6px 0 10px}
+#upcoming .upcoming-card p{font-size:13px;line-height:1.5;margin:0 0 7px}
+#upcoming .upcoming-event-description{max-width:none;margin-top:10px}
+#upcoming .upcoming-links{margin-top:auto;padding-top:12px;gap:10px 20px;font-size:10px;line-height:1.5}
+@media(max-width:800px){
+#upcoming .upcoming-event-layout{grid-template-columns:200px minmax(0,1fr);gap:22px}
+#upcoming .upcoming-event-layout .random-fridays-poster{width:200px;max-width:200px!important}
+#upcoming .upcoming-card{min-height:250px}
+}
+@media(max-width:600px){
+#upcoming .upcoming-intro{grid-template-columns:1fr;gap:16px}
+#upcoming .upcoming-intro h2{font-size:36px!important}
+#upcoming .upcoming-event-layout{grid-template-columns:110px minmax(0,1fr);gap:16px}
+#upcoming .upcoming-event-layout .random-fridays-poster{width:110px;max-width:110px!important}
+#upcoming .upcoming-card{min-height:0;gap:8px}
+#upcoming .upcoming-card h3{font-size:18px;line-height:1.2}
+#upcoming .upcoming-card p{font-size:12px}
+#upcoming .upcoming-card time,#upcoming .upcoming-card small{font-size:9px}
+#upcoming .upcoming-links{font-size:9px;padding-top:8px}
+}
+@media(max-width:360px){
+#upcoming .upcoming-event-layout{grid-template-columns:90px minmax(0,1fr);gap:12px}
+#upcoming .upcoming-event-layout .random-fridays-poster{width:90px;max-width:90px!important}
+}
 </style></head><body>
 <a class="skip" href="#about">Skip to main content</a>
 <header class="top"><a class="brand" href="#top"><img alt="" src="assets/modular-friends-logo-white.png"/><span>MODULAR FRIENDS</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primaryNavigation">MENU +</button><nav id="primaryNavigation" aria-label="Primary"><a href="#about">ABOUT</a><a href="#practice">PRACTICE</a><a href="#upcoming">UPCOMING</a><a href="#events">EDITIONS</a><a href="#festival">PROJECTS</a><a href="#artists">SOUND ARTISTS</a><a href="#visuals">VISUAL ARTISTS</a><a href="#newsletter">UPDATES</a><a href="#coverage">PRESS</a><a href="#contact">CONTACT</a><a href="shop.html" rel="noopener noreferrer">SHOP &amp; MEDIA ↗</a></nav></header>
