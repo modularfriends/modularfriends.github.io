@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-02",
-  "description": "Minimal event-credit profiles are published. Expand these entries when artist material is supplied. No portrait has been invented or substituted.",
+  "description": "Profiles updated from artist cards supplied 2 November 2026 and Nicolás Melmann’s forwarded artist materials and press kit. Missing portraits use the official MF logo.",
   "profiles": [
     {
       "name": "William Rader",
@@ -9,10 +9,9 @@
       "instagram": "https://www.instagram.com/williamrader/",
       "published_summary": "William Rader is credited in the Modular Friends 001 programme at Plant Lovers Tbilisi.",
       "source": "https://www.instagram.com/reel/DTipOa5DJdj/",
-      "portrait": null,
+      "portrait": "assets/william-rader.webp",
       "full_bio": null,
       "needs": [
-        "portrait",
         "artist-approved full biography"
       ]
     },
@@ -35,59 +34,44 @@
       "slug": "wrong-fingers",
       "category": "sound",
       "instagram": "https://www.instagram.com/_wrongfingers/",
-      "published_summary": "Wrong Fingers is a participating artist credited in Modular Friends 001, 002 and the Synthesia Lab programme for Modular Friends 011.",
+      "published_summary": "Wrong Fingers is a Tbilisi-based artist with a background in acoustic music (piano, guitar and drums). He began exploring synthesis quite recently, focusing on live, process-driven sound while playing with Modular Friends. His sets are built from minimal ideas that evolve gradually through texture, repetition and subtle shifts.",
       "source": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
-      "portrait": null,
-      "full_bio": null,
-      "needs": [
-        "portrait",
-        "artist-approved full biography"
-      ]
+      "portrait": "assets/wrong-fingers-card.webp",
+      "full_bio": "Wrong Fingers is a Tbilisi-based artist with a background in acoustic music (piano, guitar and drums). He began exploring synthesis quite recently, focusing on live, process-driven sound while playing with Modular Friends. His sets are built from minimal ideas that evolve gradually through texture, repetition and subtle shifts.",
+      "needs": []
     },
     {
       "name": "Nicolás Melmann",
       "slug": "nicolas-melmann",
       "category": "sound",
       "instagram": "https://www.instagram.com/xoxmelmann/",
-      "published_summary": "Nicolás Melmann joined Modular Friends 012 as an international guest artist at Plant Lovers Tbilisi.",
+      "published_summary": "Nicolás Melmann is an Argentine composer, multi-instrumentalist and sound artist based in Barcelona. He holds a degree in Music Composition from the University of Quilmes and a Master in Sound Art from the University of Barcelona. His work brings together acoustic instruments, electronics and field recordings in slow, immersive compositions that explore the temporal dimension of sound.\n\nWorking across electronic, electroacoustic and generative music, Melmann explores the social and poetic dimensions of sound. His practice includes sensors and hydrophones, data sonification, sound cartographies and installations, alongside music and sound for television, film, dance and theatre.\n\nHis work has been presented at the Metropolitan Museum of Art in New York, the Victoria and Albert Museum, ZKM, the Museum of Contemporary Art Denver, Seoul Museum of Art, MUTEK, Sónar and Gamma. He has held residencies at the Red Bull Music Academy, ZKM, AIR Niederösterreich, STEIM and Château Éphémère, among others.\n\nMelmann has received recognition from the Goethe-Institut, the National Arts Foundation in Argentina, the Košice Biennial and Asylum Arts. His albums have been released by Umor Rex, Metamúsica, Vent Sounds and Estamos Felices. He has shared stages with artists including Ryuichi Sakamoto and Alva Noto, Robert Lippok, Nicola Cruz, Max Cooper, Matias Aguayo, Loscil and Lydia Lunch.\n\nMúsica Aperta, released by Umor Rex in 2025, is an electroacoustic and audiovisual performance exploring the perception of time through string textures, bowls, pedal organ, tape and electronics. Its visuals draw on early microscopic films by Percy Smith. An interactive online version invites listeners to mix musical layers and create their own contemplative listening experience.\n\nNicolás Melmann joined Modular Friends 012 as an international guest at Plant Lovers Tbilisi.",
       "source": "https://www.instagram.com/p/DcIdHIIDSBm/",
-      "portrait": null,
-      "full_bio": null,
-      "needs": [
-        "portrait",
-        "artist-approved full biography"
-      ]
+      "portrait": "assets/nicolas-melmann.webp",
+      "full_bio": "Nicolás Melmann is an Argentine composer, multi-instrumentalist and sound artist based in Barcelona. He holds a degree in Music Composition from the University of Quilmes and a Master in Sound Art from the University of Barcelona. His work brings together acoustic instruments, electronics and field recordings in slow, immersive compositions that explore the temporal dimension of sound.\n\nWorking across electronic, electroacoustic and generative music, Melmann explores the social and poetic dimensions of sound. His practice includes sensors and hydrophones, data sonification, sound cartographies and installations, alongside music and sound for television, film, dance and theatre.\n\nHis work has been presented at the Metropolitan Museum of Art in New York, the Victoria and Albert Museum, ZKM, the Museum of Contemporary Art Denver, Seoul Museum of Art, MUTEK, Sónar and Gamma. He has held residencies at the Red Bull Music Academy, ZKM, AIR Niederösterreich, STEIM and Château Éphémère, among others.\n\nMelmann has received recognition from the Goethe-Institut, the National Arts Foundation in Argentina, the Košice Biennial and Asylum Arts. His albums have been released by Umor Rex, Metamúsica, Vent Sounds and Estamos Felices. He has shared stages with artists including Ryuichi Sakamoto and Alva Noto, Robert Lippok, Nicola Cruz, Max Cooper, Matias Aguayo, Loscil and Lydia Lunch.\n\nMúsica Aperta, released by Umor Rex in 2025, is an electroacoustic and audiovisual performance exploring the perception of time through string textures, bowls, pedal organ, tape and electronics. Its visuals draw on early microscopic films by Percy Smith. An interactive online version invites listeners to mix musical layers and create their own contemplative listening experience.\n\nNicolás Melmann joined Modular Friends 012 as an international guest at Plant Lovers Tbilisi.",
+      "needs": []
     },
     {
       "name": "Jamanita",
       "slug": "jamanita",
       "category": "visual",
-      "instagram": null,
+      "instagram": "https://www.instagram.com/jamanita_/",
       "published_summary": "David Janiashvili (Jamanita) is a visual artist creating real-time generative visuals with TouchDesigner. His work explores mathematical patterns and the interdependence between physical, mathematical, and material systems through immersive audiovisual environments.",
       "source": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
-      "portrait": null,
-      "full_bio": null,
-      "needs": [
-        "portrait",
-        "artist-approved full biography",
-        "Instagram verification"
-      ]
+      "portrait": "assets/jamanita-card.webp",
+      "full_bio": "David Janiashvili (Jamanita) is a visual artist creating real-time generative visuals with TouchDesigner. His work explores mathematical patterns and the interdependence between physical, mathematical, and material systems through immersive audiovisual environments.",
+      "needs": []
     },
     {
-      "name": "Tusa",
+      "name": "TusY",
       "slug": "tusa",
       "category": "visual",
-      "instagram": null,
-      "published_summary": "Tusa contributes to the visual side of Modular Friends. The event archive includes video and artwork credits.",
+      "instagram": "https://www.instagram.com/_____t___u___s__a__/",
+      "published_summary": "TusY is a Georgian macro photographer collaborating with music and sound artists to create atmospheric experiences. This form of art has become a bridge between the macro world and our existence within it, highlighting the importance of biodiversity in the organic realm.\n\nDelving into the world and capturing it in detail reveals the hidden beauty of miniature universes and the depths of the unseen, bringing a sense of the interconnectedness of all life forms in living systems. This process is a continuous source of inspiration, reflecting how engaging with Mother Nature can shape our understanding of growth and resilience.",
       "source": "https://www.instagram.com/p/DYwciRvjSWg/",
-      "portrait": null,
-      "full_bio": null,
-      "needs": [
-        "portrait",
-        "artist-approved full biography",
-        "Instagram verification"
-      ],
-      "candidate_instagram": "https://www.instagram.com/_____t___u___s__a__/"
+      "portrait": "assets/tusy-card.webp",
+      "full_bio": "TusY is a Georgian macro photographer collaborating with music and sound artists to create atmospheric experiences. This form of art has become a bridge between the macro world and our existence within it, highlighting the importance of biodiversity in the organic realm.\n\nDelving into the world and capturing it in detail reveals the hidden beauty of miniature universes and the depths of the unseen, bringing a sense of the interconnectedness of all life forms in living systems. This process is a continuous source of inspiration, reflecting how engaging with Mother Nature can shape our understanding of growth and resilience.",
+      "needs": []
     },
     {
       "name": "Yamada Tesla",
@@ -103,5 +87,6 @@
         "artist-approved full biography"
       ]
     }
-  ]
+  ],
+  "portrait_fallback": "assets/modular-friends-logo-white.png"
 }
