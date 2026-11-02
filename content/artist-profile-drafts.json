@@ -1,0 +1,107 @@
+{
+  "updated": "2026-11-02",
+  "description": "Minimal event-credit profiles are published. Expand these entries when artist material is supplied. No portrait has been invented or substituted.",
+  "profiles": [
+    {
+      "name": "William Rader",
+      "slug": "william-rader",
+      "category": "sound",
+      "instagram": "https://www.instagram.com/williamrader/",
+      "published_summary": "William Rader is credited in the Modular Friends 001 programme at Plant Lovers Tbilisi.",
+      "source": "https://www.instagram.com/reel/DTipOa5DJdj/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography"
+      ]
+    },
+    {
+      "name": "Mo.Van",
+      "slug": "mo-van",
+      "category": "sound",
+      "instagram": "https://www.instagram.com/mo.van/",
+      "published_summary": "Mo.Van appeared as a guest in the Modular Friends 006 programme alongside Progenol, Masa Trippin and AGAVA.",
+      "source": "https://www.instagram.com/reel/DVIw8XkDLrE/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography"
+      ]
+    },
+    {
+      "name": "Wrong Fingers",
+      "slug": "wrong-fingers",
+      "category": "sound",
+      "instagram": "https://www.instagram.com/_wrongfingers/",
+      "published_summary": "Wrong Fingers is a participating artist credited in Modular Friends 001, 002 and the Synthesia Lab programme for Modular Friends 011.",
+      "source": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography"
+      ]
+    },
+    {
+      "name": "Nicolás Melmann",
+      "slug": "nicolas-melmann",
+      "category": "sound",
+      "instagram": "https://www.instagram.com/xoxmelmann/",
+      "published_summary": "Nicolás Melmann joined Modular Friends 012 as an international guest artist at Plant Lovers Tbilisi.",
+      "source": "https://www.instagram.com/p/DcIdHIIDSBm/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography"
+      ]
+    },
+    {
+      "name": "Jamanita",
+      "slug": "jamanita",
+      "category": "visual",
+      "instagram": null,
+      "published_summary": "David Janiashvili (Jamanita) is a visual artist creating real-time generative visuals with TouchDesigner. His work explores mathematical patterns and the interdependence between physical, mathematical, and material systems through immersive audiovisual environments.",
+      "source": "https://billboard.com.ge/2026/05/12/modular-friends-modularuli-sintezisa-da-vizualuri-khelovnebis-cockhali-dialogi-synthesia-labshi/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography",
+        "Instagram verification"
+      ]
+    },
+    {
+      "name": "Tusa",
+      "slug": "tusa",
+      "category": "visual",
+      "instagram": null,
+      "published_summary": "Tusa contributes to the visual side of Modular Friends. The event archive includes video and artwork credits.",
+      "source": "https://www.instagram.com/p/DYwciRvjSWg/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography",
+        "Instagram verification"
+      ],
+      "candidate_instagram": "https://www.instagram.com/_____t___u___s__a__/"
+    },
+    {
+      "name": "Yamada Tesla",
+      "slug": "yamada-tesla",
+      "category": "visual",
+      "instagram": "https://www.instagram.com/yamadatesla/",
+      "published_summary": "Yamada Tesla is credited in the visual programme for Modular Friends 012, alongside Nenealism and She Nocturne.",
+      "source": "https://www.instagram.com/p/DcIdHIIDSBm/",
+      "portrait": null,
+      "full_bio": null,
+      "needs": [
+        "portrait",
+        "artist-approved full biography"
+      ]
+    }
+  ]
+}
