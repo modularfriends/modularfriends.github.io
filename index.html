@@ -469,6 +469,25 @@ h3,.artist-card h3,.visual-profile h3,.press-reference strong{letter-spacing:nor
 .signal .booking-note{font-size:16px;line-height:1.6;max-width:640px;margin:28px 0 0}.signal .booking-note a{font-size:16px;margin:0;padding:0;border:0;letter-spacing:normal;text-decoration:underline;text-underline-offset:4px}
 .item .mf-youtube-link{margin-top:12px;padding:14px 0;border-bottom:1px solid currentColor}.item .channel-live{font-size:10px;font-weight:700;letter-spacing:.12em}.foot .mf-youtube-link{font-size:11px}.mf-channel-links{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:24px}
 @media(max-width:700px){.mf-youtube-callout{display:block;padding:22px 0}.mf-youtube-callout .mf-youtube-link{margin-top:12px}.mf-youtube-callout p{font-size:14px}.signal .booking-note{font-size:15px}.mf-channel-links{gap:18px}}
+</style><style id="mf-framed-artist-toolbar">
+/* Confined to the artist search toolbar. */
+#artists .people-controls{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,1fr) max-content max-content;align-items:end;gap:12px}
+#artists .people-controls .people-search,#artists .people-controls .people-filter{grid-column:auto;min-width:0}
+#artists .people-controls .people-actions{display:contents}
+#artists .people-search input,#artists .people-search input:focus,#artists .people-search input:active{width:100%;height:70px;min-height:70px;border:1px solid #000;border-radius:0;padding:0 24px;box-shadow:none}
+#artists .people-select{display:flex;width:100%;max-width:none;height:70px;min-height:70px;border:1px solid #000;border-radius:0}
+#artists .people-select-display{display:flex;justify-content:space-between;align-items:center;width:100%;height:100%;padding:0 30px 0 24px;gap:12px}
+#artists .people-select select{box-sizing:border-box}
+#artists .people-controls .people-actions button{align-self:end;justify-self:start;grid-column:auto;margin-bottom:10.5px}
+#artists .people-search:has(input:focus-visible)>label,#artists .people-filter:has(select:focus-visible)>label{text-decoration:none}
+#artists .people-search input:focus-visible,#artists .people-select:has(select:focus-visible){outline:2px solid #111;outline-offset:3px}
+@media(max-width:700px){
+#artists .people-controls{grid-template-columns:minmax(0,1fr) max-content max-content}
+#artists .people-controls .people-search{grid-column:1/-1}
+#artists .people-controls .people-filter{grid-column:1/-1}
+#artists .people-controls .people-actions{display:flex;grid-column:1/-1;gap:12px;justify-content:flex-start}
+#artists .people-controls .people-actions button{margin-bottom:0}
+}
 </style></head><body>
 <a class="skip" href="#about">Skip to main content</a>
 <header class="top"><a class="brand" href="#top"><img alt="" src="assets/modular-friends-logo-white.png"/><span>MODULAR FRIENDS</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primaryNavigation">MENU +</button><nav id="primaryNavigation" aria-label="Primary"><a href="#about">ABOUT</a><a href="#practice">PRACTICE</a><a href="#upcoming">UPCOMING</a><a href="#events">EDITIONS</a><a href="#festival">PROJECTS</a><a href="#artists">SOUND ARTISTS</a><a href="#visuals">VISUAL ARTISTS</a><a href="#newsletter">UPDATES</a><a href="#coverage">PRESS</a><a href="#contact">CONTACT</a><a href="shop.html" rel="noopener noreferrer">SHOP &amp; MEDIA ↗</a></nav></header>
