@@ -1,0 +1,99 @@
+{
+  "received": "2026-11-05",
+  "policy": "Use event photography only for its verified activity/edition. Never substitute another event's photo. If no verified photo or poster exists, use the Modular Friends logo. New intake photos are available for general website use; confirm edition/date and photographer credit before assigning them to an event.",
+  "verified_assets": [
+    {
+      "path": "assets/editions-live-crowd.webp",
+      "edition": "011",
+      "venue": "Synthesia Lab",
+      "date": "2026-05-17",
+      "verification": "User correction, 2026-11-05"
+    }
+  ],
+  "intake": [
+    {
+      "filename": "_1590139.jpg",
+      "library_file_id": "libfile_8fc4320871cc8191b8497a35ed38d06b",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590140.jpg",
+      "library_file_id": "libfile_74e0888ea6c88191bf0a24e983544380",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590141.jpg",
+      "library_file_id": "libfile_97856f5ae05481919445d9f746be8809",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590142.jpg",
+      "library_file_id": "libfile_cd6fa4d0fb8c81918f9897de85aaeed0",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590145.jpg",
+      "library_file_id": "libfile_814e13f174a08191b1c508b17de88b44",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590147.jpg",
+      "library_file_id": "libfile_d144dbc1f73c819199274290943c5fcd",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590148.jpg",
+      "library_file_id": "libfile_9f2fc79eb74481919b983a00b392e8f0",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590150.jpg",
+      "library_file_id": "libfile_99705d6c94648191838d037644f359d3",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590151.jpg",
+      "library_file_id": "libfile_72fb375be73c8191a4f975af88f811fb",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590152.jpg",
+      "library_file_id": "libfile_d72bf798d6308191b415954745e7d946",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590163.jpg",
+      "library_file_id": "libfile_932e21ec94948191b179774d184b2159",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    },
+    {
+      "filename": "_1590167.jpg",
+      "library_file_id": "libfile_f4ed1432c310819194ebdc67a145c64c",
+      "edition": null,
+      "date": null,
+      "status": "general website use; event attribution unconfirmed"
+    }
+  ]
+}
