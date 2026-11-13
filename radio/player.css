@@ -9,3 +9,6 @@
 .mf-radio .mf-radio-toggle:hover{background:#111;color:#fff}.mf-radio .mf-radio-toggle:disabled{opacity:.45;cursor:wait}.mf-radio .mf-radio-toggle:focus-visible{outline:3px solid #777;outline-offset:4px}
 .mf-radio-home{background:#f8f8f5;padding:1px 0}.mf-radio-home .mf-radio{border:0;margin:0;padding:28px 0}
 @media(max-width:600px){.mf-radio{gap:14px;padding:18px;flex-wrap:wrap}.mf-radio .mf-radio-logo{width:44px;height:44px;align-self:flex-start}.mf-radio .mf-radio-copy{flex-basis:calc(100% - 58px)}.mf-radio .mf-radio-toggle{margin-left:58px}.mf-radio .mf-radio-copy h3{font-size:12px}.mf-radio .mf-radio-copy p{font-size:13px}}
+/* Keep the radio compact despite the site's general section spacing rule. */
+#radio.mf-radio-home{padding-top:0!important;padding-bottom:0!important;scroll-margin-top:90px!important}
+.archive-grid>.mf-radio{align-self:start}
