@@ -9,13 +9,19 @@ Commit message: Refine toolbar to 66:34 fields and align all controls at 70px
 ## Purpose
 Persist a small, verifiable handoff across ChatGPT Work conversation interruptions. This is a status document, not a claim that unpublished edits were committed.
 
-## Current priority: Modular Friends Radio
-- Previous Work conversations stopped during radio audio import, at "Checking MP3 File Size".
-- Screenshot of previous Work reports Google Drive folder `MF – RADIO – WEB` contains 20 original WAV files plus other files. Audio conversion and file-size checking were underway.
-- Screenshot reports `sent by artists` folder is empty. These Drive facts have not been independently re-verified in this checkpoint.
-- Requested radio design: minimal light background; MF logo; random shuffle of audio tracks; title and artist displayed; NO NEXT button.
-- Existing live website and repository must be audited before introducing audio changes.
-- Next safe step: inspect current repo audio/player paths and verify Google Drive source files, conversions, file sizes, and actual publication state; avoid duplicate work. Do not publish until verified.
+## Modular Friends Radio — published and playback verified
+- Implementation commit: 99bdba44055617be2a36cef8898465d9c4268543.
+- Audio sync commit: c69f325e3d51dd4f4656c76e373c91e5b9ba8eb4.
+- 20 MP3 recordings, 6521.73 seconds total, hosted under radio/media. tracks.json is generated automatically.
+- Shared HTML5 player appears at /#radio, /#artists, and /shop.html#audio. Light background, logo, Play/Pause, no Next, no autoplay, shuffle without repeats, bounded failures.
+- Moved the 20 already-created MF-owned WAV copies from the older source folder into the requested radio folder; did not create duplicate Drive files or modify the originals.
+- Public Drive folder (including sent by artists) syncs daily at 03:17 UTC / 07:17 Asia/Tbilisi, plus manual Actions dispatch. New MP3 files are copied unchanged. WAV-to-MP3 conversion happens only when the generated MP3 does not exist. Existing IDs are skipped; replacement audio requires a new Drive file ID.
+- Successful first sync: https://github.com/modularfriends/modularfriends.github.io/actions/runs/43467672187
+- Successful live Chromium tests: https://github.com/modularfriends/modularfriends.github.io/actions/runs/43468371159
+- Live tests at 1280px and 390px: real MP3 playback on home and Audio, Play/Pause, shared artist controls, artist/title, responsive bounds; desktop automatic transition through a real ended event.
+- Unit tests: three shuffled cycles with no repeats, cycle boundary, no autoplay, all-failed termination, empty playlist. Sync test: a new MP3 is added unchanged, existing media is not downloaded again, failed sync retains the published playlist.
+- Independent cloud-browser playback confirmed currentTime advancing and readyState=4 on the published MP3.
+- No API secrets, Base64 audio, paid services, or outstanding playback blockers.
 
 ## Next after radio
 - About page: correct proportions of photo #03 (reported filename `gallery-collective-live.webp`, MF-011) to fit adjacent images, avoiding design disruptions.
