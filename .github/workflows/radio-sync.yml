@@ -1,0 +1,46 @@
+name: Sync Modular Friends Radio
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync-radio.py'
+      - '.github/workflows/radio-sync.yml'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: radio-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audio tools
+        run: |
+          python -m pip install gdown==6.5.1
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Sync public Drive audio incrementally
+        run: python scripts/sync-radio.py
+      - name: Commit verified audio and playlist
+        run: |
+          git config user.name 'Modular Friends Radio'
+          git config user.email 'mfmodularfriends@gmail.com'
+          git add radio/media radio/tracks.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Sync radio recordings from Google Drive'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Request GitHub Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/${{ github.repository }}/pages/builds
