@@ -1,0 +1,646 @@
+{
+  "updated": "2026-11-16",
+  "audit": {
+    "instagram_profile": "https://www.instagram.com/modular_friends/",
+    "visible_profile_posts_reviewed": 106,
+    "scope": "Numbered MF editions and distinct unnumbered events / collaborations. Coauthored posts included. Repeated announcements and recordings consolidated.",
+    "unresolved": [
+      {
+        "source": "https://www.instagram.com/skywalker._.visuals/p/Dcgl2tRCFh4/",
+        "reason": "Nature performance documentation gives 20 June 2026; exact relation to Nature Edition 2 with Yoyoyoyo remains unconfirmed."
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "mf-014",
+      "title": "MF-014",
+      "date": "2026-10-23",
+      "date_label": "2026-10-23",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Masa Trippin; Shota; Neroli Kid",
+      "visuals": "Yoyoyoyo; MANIPURA",
+      "description": "An open modular jam with live sound and visual art.",
+      "image": "assets/event-archive/mf-014.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DeyZslKjQWU/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-013",
+      "title": "MF-013",
+      "date": "2026-09-27",
+      "date_label": "2026-09-27",
+      "venue": "Dedaena Park / City Hikers · Tbilisi, Georgia",
+      "artists": "Masa Trippin; Spilled Ambiences; Neroli Kid × Giga Baindurashvili; Tetso_2.4 Hz; AGAVA; Shota; collective modular jam",
+      "visuals": "Nenealism; Yoyoyoyo; She Nocturne / Mimi Melashvili; Liameore",
+      "description": "Live sets and a collective modular jam hosted by City Hikers. Artwork: TUSA.",
+      "image": "assets/event-archive/mf-013.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DdQnSx_tXD9/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-012",
+      "title": "MF-012",
+      "date": "2026-08-23",
+      "date_label": "2026-08-23",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Nicolás Melmann; Shota; Wayward Atom; Vaska; Spilled Ambiences; AGAVA",
+      "visuals": "Nenealism; She Nocturne; Yamadatesla",
+      "description": "An intimate guest performance by Nicolás Melmann, live sets and a modular jam.",
+      "image": "assets/event-archive/mf-012.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DcIdHIIDSBm/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-011",
+      "title": "MF-011",
+      "date": "2026-05-17",
+      "date_label": "2026-05-17",
+      "venue": "Synthesia Lab · Tbilisi, Georgia",
+      "artists": "Neroli Kid / Giga Baindurashvili, William Tavadze, Lado Barnovi, Vaska, TeTe / Tetso / Vazha Marr, Masa Trippin / Shota / Wrong Fingers, AGAVA / Wayward Atom / Spilled Ambiences, Eddie Strxm, Marching Dog (jam), Tamarma (jam)",
+      "visuals": "Skywalker, TusY, Progenol, Nenealism, Jamanita, Yoyo, She Nocturne, Sophie Gvelukashvili",
+      "description": "A daytime meeting of live modular synthesis and audiovisual art, with individual performances and a collective jam.",
+      "image": "assets/event-archive/mf-011.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DYMObfRDTFD/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-010",
+      "title": "MF-010",
+      "date": "2026-04-26",
+      "date_label": "2026-04-26",
+      "venue": "Bubble Bar / Afisha Terrace · Batumi, Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom",
+      "visuals": "",
+      "description": "An improvised ambient live session on the terrace.",
+      "image": "assets/event-archive/mf-010.webp",
+      "image_kind": "Original event documentation",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/bemyguest.project/p/DX3yIJ2jBrl/"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/spilled_ambiences/reel/DX9NRZFMjKW/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-009",
+      "title": "MF-009",
+      "date": "2026-04",
+      "date_label": "2026-04 · exact day not confirmed",
+      "venue": "ABSEA Studio / ABSEA Radio · Batumi, Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom",
+      "visuals": "",
+      "description": "A live modular session recorded at ABSEA Studio for ABSEA Radio. Media: Artemis.",
+      "image": "assets/event-archive/mf-009.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DXTi1IHDBRS/"
+        }
+      ],
+      "verification_notes": "Previous site used 13 April, a documentation date. Event day is not established; the related broadcast announcement says Thursday."
+    },
+    {
+      "id": "mf-008",
+      "title": "MF-008",
+      "date": "2026-04",
+      "date_label": "2026-04 · exact day not confirmed",
+      "venue": "1905 Community · Batumi, Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom",
+      "visuals": "",
+      "description": "A shared live modular performance hosted by 1905 Community.",
+      "image": "assets/event-archive/mf-008.webp",
+      "image_kind": "Original event documentation",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DXGel3tDKjd/"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DXGel3tDKjd/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-007",
+      "title": "MF-007",
+      "date": "2026-03-14",
+      "date_label": "2026-03-14",
+      "venue": "UZU House · Tbilisi, Georgia",
+      "artists": "Shota; Masa Trippin; Tetso; TeTe Noise; Giga Baindurashvili; Vaska; Ben Wheeler; Wayward Atom",
+      "visuals": "",
+      "description": "An evening of modular improvisation at UZU House. Documentation also credits Raman Solnczew; media by Lisa Hyphy.",
+      "image": "assets/event-archive/mf-007.webp",
+      "image_kind": "Original event documentation",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DV0SRvwjEE7/"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DW1RNjSjHb1/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-006",
+      "title": "MF-006",
+      "date": "2026-02-27",
+      "date_label": "2026-02-27",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Mo.Van; Progenol; Masa Trippin; AGAVA",
+      "visuals": "",
+      "description": "Guest artists and modular performances at Plant Lovers. Artwork: Levanama.",
+      "image": "assets/event-archive/mf-006.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DVIw8XkDLrE/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-005",
+      "title": "MF-005",
+      "date": "2026-02-20",
+      "date_label": "2026-02-20",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Tetso; Giga Baindurashvili; Spilled Ambiences; Neroli Kid; AGAVA; Wayward Atom",
+      "visuals": "",
+      "description": "Ambient and experimental live sets followed by a shared jam. Wayward Atom is also credited in the performance documentation.",
+      "image": "assets/event-archive/mf-005.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DUzr_sbDIOL/"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DVLBjl5DDeq/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-004",
+      "title": "MF-004",
+      "date": "2026-02-13",
+      "date_label": "2026-02-13",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Lado Barnovi; Wayward Atom; Masa Trippin; AGAVA; Shota; Vaska",
+      "visuals": "",
+      "description": "Live performances and a modular jam. Artwork: Levanama.",
+      "image": "assets/event-archive/mf-004.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DUiVxp6DHUq/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-003",
+      "title": "MF-003",
+      "date": "2026-02-06",
+      "date_label": "2026-02-06",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Neroli Kid; TeTe Noise; Oleksandr Demyanenko; Shota; Wrong Fingers; Giga Baindurashvili; Wayward Atom; Masa Trippin; AGAVA",
+      "visuals": "",
+      "description": "An ambient and improvised jam session with friends. Line-up compiled from the announcement and its poster.",
+      "image": "assets/event-archive/mf-003.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DUNRbN-jJ9h/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-002",
+      "title": "MF-002",
+      "date": "2026-01-30",
+      "date_label": "2026-01-30",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Wayward Atom; Masa Trippin; Wrong Fingers; Shota; AGAVA; Tetso",
+      "visuals": "",
+      "description": "An evening of modular improvisation and deep listening. Artwork: Levanama.",
+      "image": "assets/event-archive/mf-002.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DT7cG6UjByK/"
+        }
+      ],
+      "verification_notes": ""
+    },
+    {
+      "id": "mf-001",
+      "title": "MF-001",
+      "date": "2026-01-16",
+      "date_label": "2026-01-16",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "Wrong Fingers; Shota; William Rader; Marching Dog / Levan Javakhishvili; AGAVA; Tetso",
+      "visuals": "",
+      "description": "The first numbered Modular Friends gathering: live modular performance and a shared jam.",
+      "image": "assets/event-archive/mf-001.webp",
+      "image_kind": "Event poster / original Instagram cover",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/plantloverstbilisi/reel/DTewTukDJmn/"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DTipOa5DJdj/"
+        }
+      ],
+      "verification_notes": ""
+    }
+  ],
+  "events": [
+    {
+      "id": "suphevs",
+      "title": "Modular Friends @ Suphevs",
+      "date": "2026-11-14",
+      "date_label": "2026-11-14",
+      "venue": "Suphevs Bar · Tbilisi, Georgia",
+      "artists": "Neroli Kid; Giga Baindurashvili; AGAVA; Spilled Ambiences; Wayward Atom",
+      "image": "assets/suphevs-2026-11-14-post-doors.jpg",
+      "description": "Live electronic music, modular synthesis and visual art. Doors 19:00; 64 Dimitri Uznadze Street.",
+      "visuals": "Yoyoyoyo; MANIPURA",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DfbffzriKBd/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "random-fridays",
+      "title": "Random Fridays",
+      "date": "2026-10-30",
+      "date_label": "2026-10-30",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "AGAVA; Masa Trippin",
+      "image": "assets/random-fridays-2026-10-30-post.jpg",
+      "description": "A free, open recording session with live experimental electronic music. Niaghvari Street 4A; 16:00.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/p/DfFZj12CjDf/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "1984-october",
+      "title": "Modular Friends at 1984",
+      "date": "2026-10-24",
+      "date_label": "2026-10-24",
+      "venue": "Jazz Club 1984 · Tbilisi, Georgia",
+      "artists": "Modular Friends; NIKAKOI; Rezo Kiknadze; Nika Gabadze",
+      "image": "assets/event-archive/1984-october.webp",
+      "description": "Modular Friends opened at 22:00, followed at 23:30 by a separate experimental improvisation by NIKAKOI, Rezo Kiknadze and Nika Gabadze.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/1984jazz/p/DelpY2GiJu-/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "leftbank-october",
+      "title": "Modular Friends × Space One",
+      "date": "2026-10-10",
+      "date_label": "2026-10-10",
+      "venue": "Left Bank · Tbilisi, Georgia",
+      "artists": "AGAVA — live; Dave Forest; Suckingup$un; Quentin Bachet; Saint Kelevra",
+      "image": "assets/event-archive/leftbank-2026-10-10.webp",
+      "description": "A live modular performance and selector programme in Space One, alongside the separate Outdoors clubnight.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Resident Advisor / organiser listing",
+          "url": "https://ra.co/events/2553193"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "radiophrenia",
+      "title": "industrees / Radiophrenia",
+      "date": "2026-09-15",
+      "date_label": "2026-09-15",
+      "venue": "Radiophrenia · Glasgow, United Kingdom",
+      "artists": "Jett Ilagan; voices by Furan Z and Swarupa Ananth; additional sound works by Vanessa in Fragments, Wayward Atom and Modular Friends",
+      "image": "assets/event-archive/radiophrenia.webp",
+      "description": "A 30-minute in-studio radio work by Jett Ilagan. Modular Friends contributed sound works to the broadcast; this was a radio contribution, not an in-person Glasgow concert.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/escuri_ph/p/DdTjXRZiFvi/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "stockton",
+      "title": "Plant Lovers Area / Stockton Invites",
+      "date": "2026-09-05",
+      "date_label": "5–6 SEPTEMBER 2026",
+      "venue": "Satibe, Georgia",
+      "artists": "Wayward Atom; Sandro / Andro Bibich; Spilled Ambiences; Plant Lovers’ Plant Music Project",
+      "image": "assets/stockton-plant-lovers-station.webp",
+      "description": "An ambient festival environment with live sound, a voice-based session, plant-based music and a vibrational listening platform.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Existing verified festival project / published programme",
+          "url": "https://at.ge/2026/09/02/plant-lovers-station-powered-ardi1/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "yerevan",
+      "title": "Nicolás Melmann / Yerevan",
+      "date": "2026-08-22",
+      "date_label": "2026-08-22",
+      "venue": "HAYART Contemporary Art Center · Yerevan, Armenia",
+      "artists": "Nicolás Melmann — live",
+      "visuals": "",
+      "image": "assets/event-archive/yerevan.webp",
+      "image_kind": "Original Caucasus tour poster",
+      "description": "A Música Aperta / 20 Years tour performance by Nicolás Melmann. His Yerevan documentation thanks Modular Friends among the tour collaborators.",
+      "sources": [
+        {
+          "label": "Artist tour announcement",
+          "url": "https://www.instagram.com/xoxmelmann/reel/DcS4Y_LO0zL/"
+        },
+        {
+          "label": "Artist documentation / collaboration acknowledgement",
+          "url": "https://www.instagram.com/xoxmelmann/p/DctGbbSiJbX/"
+        }
+      ],
+      "verification_notes": "MF is acknowledged among collaborators. Do not describe this as an MF live performance."
+    },
+    {
+      "id": "leftbank-august",
+      "title": "Live modular / Space One",
+      "date": "2026-08-21",
+      "date_label": "2026-08-21",
+      "venue": "Left Bank · Tbilisi, Georgia",
+      "artists": "AGAVA; Wayward Atom; Spilled Ambiences — live; ninaaumn; Trym Søvdsnes",
+      "image": "assets/event-archive/leftbank-2026-08-21.webp",
+      "description": "A live modular set in Space One alongside the selector programme. Outdoors hosted Poly Chain, Sevda and Dali.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Resident Advisor / organiser listing",
+          "url": "https://ra.co/events/2504309"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "leftbank-july",
+      "title": "AGAVA & Wayward Atom / Space One",
+      "date": "2026-07-04",
+      "date_label": "2026-07-04",
+      "venue": "Left Bank · Tbilisi, Georgia",
+      "artists": "AGAVA; Wayward Atom — live; Giorgi Pirveli B2B blackrain; simsonabim",
+      "image": "assets/event-archive/leftbank-2026-07-04.webp",
+      "description": "A live modular set in Space One during Free Saturdays, alongside a separate Outdoors programme.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Resident Advisor / organiser listing",
+          "url": "https://ra.co/events/2478522"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "1984-june",
+      "title": "Modular Night × Nika Gabadze Trio",
+      "date": "2026-06-28",
+      "date_label": "2026-06-28",
+      "venue": "Jazz Club 1984 · Tbilisi, Georgia",
+      "artists": "AGAVA / Levan Shanshiashvili — modular system; Masa Trippin — modular synthesizers; Daniel Adikashvili — drums; Kakha Jagashvili — saxophone; Nika Gabadze — guitar",
+      "image": "assets/event-archive/1984-june.webp",
+      "description": "An encounter between modular synthesis and a live jazz trio at 1984. Rustaveli Avenue 37; 22:00.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/1984jazz/p/DZ44BnaCEn1/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "tofu",
+      "title": "TOFU Sessions × Goethe-Institut",
+      "date": "2026-06-26",
+      "date_label": "2026-06-26",
+      "venue": "Evangelical-Baptist Church · Tbilisi, Georgia",
+      "artists": "Barcode; Wayward Atom; AGAVA × Masa Trippin",
+      "image": "assets/tofu-sessions-june-2026-poster.jpg",
+      "description": "A seated listening session supported by Goethe-Institut Georgien. 6 Spiridon Kedia Street; doors 20:00.",
+      "visuals": "Nenealism; She Nocturne",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/tofusessions/p/Da46V81DJhC/"
+        },
+        {
+          "label": "Billboard Georgia / event feature",
+          "url": "https://billboard.com.ge/2026/06/23/sakartvelos-goetes-instituti-exsperimentuli-musikis-platformis-tofu-sessions-sagamos-carmogidgent/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "leftbank-may",
+      "title": "Modular jam / Space One",
+      "date": "2026-05-15",
+      "date_label": "2026-05-15",
+      "venue": "Left Bank · Tbilisi, Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom — live; Rezz; DJ Split",
+      "image": "assets/event-archive/leftbank-2026-05-15.webp",
+      "description": "A live modular electronics jam in Space One during Left Bank Clubnight, alongside the selector programme.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Resident Advisor / organiser listing",
+          "url": "https://ra.co/events/2430640"
+        },
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/reel/DYxCphYNNJv/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "nature-1",
+      "title": "Nature Edition 1",
+      "date": "2026-04-10",
+      "date_label": "2026-04-10",
+      "venue": "Outdoor session · Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom",
+      "image": "assets/event-archive/nature-1.webp",
+      "description": "An outdoor live modular recording and shared improvisation. Video production, filming and editing: Gio Ivanishvili.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DXJE-1_DAxZ/"
+        },
+        {
+          "label": "Official full recording",
+          "url": "https://youtu.be/DyUe8lXNcnw"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "nature-2",
+      "title": "Nature Edition 2",
+      "date": null,
+      "date_label": "2026 · date not listed",
+      "venue": "Outdoor audiovisual session · Georgia",
+      "artists": "AGAVA; Spilled Ambiences; Wayward Atom",
+      "image": "assets/event-archive/nature-2.webp",
+      "description": "A second Nature Edition recording bringing live modular sound together with visual art. The announcement does not specify the event date.",
+      "visuals": "Yoyoyoyo",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/modular_friends/reel/DcoKDeFtdzA/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation",
+      "verification_notes": "Do not infer a date from the publication date or merge with the separate Skywalker post dated 20 June without confirmation."
+    },
+    {
+      "id": "sabagirolisi",
+      "title": "Modular Friends / Sabagirolisi",
+      "date": null,
+      "date_label": "2026 · date not listed",
+      "venue": "Sabagirolisi · Tbilisi, Georgia",
+      "artists": "AGAVA; Wayward Atom; Masa Trippin; Shota",
+      "image": "assets/event-archive/sabagirolisi.webp",
+      "description": "Four hours of live modular improvisation. The documentation does not list the event date.",
+      "visuals": "She Nocturne / Mimi Melashvili",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/p/DasG4lvDE7o/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "jazz-and-modular",
+      "title": "Jazz and modular synthesis",
+      "date": null,
+      "date_label": "2026 · date not listed",
+      "venue": "Jazz Club 1984 · Tbilisi, Georgia",
+      "artists": "AGAVA; Masa Trippin; Kakha Jagashvili; Daniel Adikashvili; Nika Gabadze",
+      "image": "assets/event-archive/jazz-and-modular.webp",
+      "description": "A documented jam between modular synthesists and jazz musicians. Media: TusY. The source does not state the event date.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DX3QKzHMEOU/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "junkyard",
+      "title": "Modular Friends / Junkyard",
+      "date": null,
+      "date_label": "2026 · date not listed",
+      "venue": "Junkyard · Tbilisi, Georgia",
+      "artists": "Modular Friends",
+      "image": "assets/event-archive/junkyard.webp",
+      "description": "Live modular techno at Junkyard. Media: Sunnshineme. The source does not list a complete line-up or event date.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/wavelets.attoms/reel/DX7EC5sCqDE/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    },
+    {
+      "id": "random-wednesday",
+      "title": "Random Wednesday",
+      "date": null,
+      "date_label": "2026 · date not listed",
+      "venue": "Plant Lovers · Tbilisi, Georgia",
+      "artists": "AGAVA; Masa Trippin",
+      "image": "assets/event-archive/random-wednesday.webp",
+      "description": "A live modular improvisation and recording session. Related documentation credits Microscope and MGI Production. The source does not state the event date.",
+      "visuals": "",
+      "sources": [
+        {
+          "label": "Instagram announcement / documentation",
+          "url": "https://www.instagram.com/levan_shan/reel/DU7qvUgjBBT/"
+        }
+      ],
+      "image_kind": "Original event poster / documentation"
+    }
+  ]
+}
