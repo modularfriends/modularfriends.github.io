@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-20",
   "description": "Profiles updated from artist cards supplied 2 November 2026 and Nicolás Melmann’s forwarded artist materials and press kit. Missing portraits use the official MF logo.",
   "profiles": [
     {
@@ -16,18 +16,16 @@
       ]
     },
     {
-      "name": "Mo.Van",
+      "name": "Movan",
       "slug": "mo-van",
       "category": "sound",
       "instagram": "https://www.instagram.com/mo.van/",
-      "published_summary": "Mo.Van appeared as a guest in the Modular Friends 006 programme alongside Progenol, Masa Trippin and AGAVA.",
+      "published_summary": "Sound performer, visual researcher and cultural curator based in Berlin. His practice moves between experimental electronic music, contemporary club culture and audiovisual exploration.\n\nThrough live improvisation, Movan constructs evolving sonic landscapes shaped by intricate textures, fractured rhythms and deep, resonant basslines. Working with FM synthesis, modular systems, field recordings, voice and drum machines, he develops raw, unpredictable compositions in which rhythmic structures emerge, dissolve and continuously transform.",
       "source": "https://www.instagram.com/reel/DVIw8XkDLrE/",
-      "portrait": null,
-      "full_bio": null,
-      "needs": [
-        "portrait",
-        "artist-approved full biography"
-      ]
+      "portrait": "assets/movan-live.webp",
+      "full_bio": "Sound performer, visual researcher and cultural curator based in Berlin. His practice moves between experimental electronic music, contemporary club culture and audiovisual exploration.\n\nThrough live improvisation, Movan constructs evolving sonic landscapes shaped by intricate textures, fractured rhythms and deep, resonant basslines. Working with FM synthesis, modular systems, field recordings, voice and drum machines, he develops raw, unpredictable compositions in which rhythmic structures emerge, dissolve and continuously transform.",
+      "needs": [],
+      "bio_source": "Artist-supplied biography, 17 November 2026"
     },
     {
       "name": "Wrong Fingers",

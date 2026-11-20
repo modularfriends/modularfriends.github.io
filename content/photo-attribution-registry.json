@@ -8,6 +8,14 @@
       "venue": "Synthesia Lab",
       "date": "2026-05-17",
       "verification": "User correction, 2026-11-05"
+    },
+    {
+      "path": "assets/movan-live.webp",
+      "artist": "Movan",
+      "use": "Sound artist profile",
+      "source": "Artist-supplied movan_live.JPEG, 17 November 2026",
+      "photographer": null,
+      "verification": "Supplied directly by the artist; published at user request, 20 November 2026"
     }
   ],
   "intake": [
