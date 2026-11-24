@@ -17,6 +17,9 @@ FOLDER = '1U9dLhBoj3UwKXGvL6SrDRJlKNa8NfhYS'
 def metadata(name):
     name = re.sub(r'^Copy of\s+', '', Path(name).stem, flags=re.I).strip()
     name = name.replace('_', ' ')
+    nature = re.search(r'\bm\s*f\s*n\s*e\s*2\s+2\s*-\s*(\d+)', name, flags=re.I)
+    if nature:
+        return 'AGAVA × Spilled Ambiences × Wayward Atom', f'Nature Edition 2 · Track {int(nature.group(1)):02}'
     if name.lower().startswith('modular friends'):
         return 'Modular Friends', name
     parts = re.split(r'\s*[-–—]\s*', name, maxsplit=1)

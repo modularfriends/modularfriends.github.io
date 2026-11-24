@@ -5,10 +5,10 @@ const origin='https://modularfriends.github.io';
 (async()=>{
  let playlist;
  for(let i=0;i<40;i++){
-  try { const r=await fetch(origin+'/radio/tracks.json?qa='+Date.now());if(r.ok){playlist=await r.json();if(playlist.tracks?.length>=20)break;} }catch{}
+  try { const r=await fetch(origin+'/radio/tracks.json?qa='+Date.now());if(r.ok){playlist=await r.json();if(playlist.tracks?.length>=34)break;} }catch{}
   await new Promise(r=>setTimeout(r,15000));
  }
- assert(playlist?.tracks?.length>=20,'published playlist contains recordings');
+ assert(playlist?.tracks?.length>=34,'published playlist includes the new Nature Edition recordings');
  const browser=await chromium.launch();const results=[];fs.mkdirSync('test-results',{recursive:true});
  try{
   for(const width of [1280,390]){
@@ -22,15 +22,21 @@ const origin='https://modularfriends.github.io';
    const first=await page.locator('audio').evaluate(a=>({src:a.currentSrc,duration:a.duration,time:a.currentTime}));
    assert(first.src.endsWith('.mp3'));
    assert((await page.locator('#radio .mf-radio-artist').textContent()).length>0);
+   assert.equal(await page.locator('#radio .mf-radio-record').evaluate(el=>getComputedStyle(el).animationPlayState),'running');
+   assert(!/\d+ recordings/.test(await page.locator('#radio .mf-radio-status').textContent()));
+   await page.locator('#radio .mf-radio-next').click();
+   await page.waitForFunction(src=>{const a=document.querySelector('audio');return a.currentSrc!==src&&!a.paused&&a.currentTime>1;},first.src,{timeout:90000});
+   const nextSrc=await page.locator('audio').evaluate(a=>a.currentSrc);
    await page.locator('#radio [data-mf-radio]').screenshot({path:`test-results/radio-${width}.png`});
    const rect=await page.locator('#radio [data-mf-radio]').boundingBox();assert(rect.x>=0&&rect.x+rect.width<=width+1,'radio fits viewport');
    await page.locator('#artists .mf-radio-toggle').click();
    assert(await page.locator('audio').evaluate(a=>a.paused));
+   assert.equal(await page.locator('#radio .mf-radio-record').evaluate(el=>getComputedStyle(el).animationPlayState),'paused');
    const paused=await page.locator('audio').evaluate(a=>a.currentTime);await page.waitForTimeout(400);assert(Math.abs((await page.locator('audio').evaluate(a=>a.currentTime))-paused)<.1);
    await page.locator('#artists .mf-radio-toggle').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
    if(width===1280){
     await page.locator('audio').evaluate(a=>{a.currentTime=a.duration-.5;});
-    await page.waitForFunction(src=>{const a=document.querySelector('audio');return a.currentSrc!==src&&!a.paused&&a.currentTime>1;},first.src,{timeout:90000});
+    await page.waitForFunction(src=>{const a=document.querySelector('audio');return a.currentSrc!==src&&!a.paused&&a.currentTime>1;},nextSrc,{timeout:90000});
    }
    await page.locator('#artists [data-mf-radio]').screenshot({path:`test-results/artists-${width}.png`});
    await page.locator('#artists .mf-radio-toggle').click();

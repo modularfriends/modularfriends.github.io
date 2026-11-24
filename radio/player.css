@@ -1,14 +1,20 @@
 .mf-radio{box-sizing:border-box;display:flex;align-items:center;gap:24px;background:#f8f8f5;color:#111;border:1px solid #111;padding:24px;margin:24px 0;font-family:Arial,Helvetica,sans-serif;text-align:left;min-width:0}
-.mf-radio .mf-radio-logo{width:64px;height:64px;object-fit:contain;flex:none}
+.mf-radio .mf-radio-record{width:76px;height:76px;flex:none;border-radius:50%;display:grid;place-items:center;position:relative;background:repeating-radial-gradient(circle at center,#121212 0 2px,#292929 2px 3px,#121212 3px 5px);border:1px solid #333;animation:mf-vinyl-spin 5s linear infinite;animation-play-state:paused}
+.mf-radio .mf-radio-record:after{content:'';position:absolute;left:50%;top:50%;width:4px;height:4px;border-radius:50%;background:#eee;transform:translate(-50%,-50%)}
+.mf-radio.is-playing .mf-radio-record{animation-play-state:running}
+.mf-radio .mf-radio-logo{width:44px;height:44px;object-fit:contain;flex:none;background:#111;border-radius:50%;padding:5px}
+@keyframes mf-vinyl-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.mf-radio .mf-radio-record{animation:none}}
 .mf-radio .mf-radio-copy{flex:1;min-width:0}
 .mf-radio .mf-radio-copy h3{font-size:14px;line-height:1.4;letter-spacing:.09em;margin:0 0 12px;font-weight:700;color:#111}
 .mf-radio .mf-radio-copy p{font-size:14px;line-height:1.5;margin:0;overflow-wrap:anywhere;color:#111;max-width:none}
 .mf-radio .mf-radio-copy .mf-radio-artist{font-size:12px;margin-top:3px}
 .mf-radio .mf-radio-copy .mf-radio-status{font-size:11px;color:#555;margin-top:10px}
-.mf-radio .mf-radio-toggle{font:700 12px Arial,Helvetica,sans-serif;letter-spacing:.08em;background:transparent;color:#111;border:1px solid #111;padding:16px 20px;min-width:95px;min-height:48px;cursor:pointer;flex:none}
-.mf-radio .mf-radio-toggle:hover{background:#111;color:#fff}.mf-radio .mf-radio-toggle:disabled{opacity:.45;cursor:wait}.mf-radio .mf-radio-toggle:focus-visible{outline:3px solid #777;outline-offset:4px}
+.mf-radio .mf-radio-controls{display:flex;gap:10px;flex:none}
+.mf-radio .mf-radio-toggle,.mf-radio .mf-radio-next{font:700 12px Arial,Helvetica,sans-serif;letter-spacing:.08em;background:transparent;color:#111;border:1px solid #111;padding:16px 20px;min-width:85px;min-height:48px;cursor:pointer;flex:none}
+.mf-radio .mf-radio-controls button:hover{background:#111;color:#fff}.mf-radio .mf-radio-controls button:disabled{opacity:.45;cursor:wait}.mf-radio .mf-radio-controls button:focus-visible{outline:3px solid #777;outline-offset:4px}
 .mf-radio-home{background:#f8f8f5;padding:1px 0}.mf-radio-home .mf-radio{border:0;margin:0;padding:28px 0}
-@media(max-width:600px){.mf-radio{gap:14px;padding:18px;flex-wrap:wrap}.mf-radio .mf-radio-logo{width:44px;height:44px;align-self:flex-start}.mf-radio .mf-radio-copy{flex-basis:calc(100% - 58px)}.mf-radio .mf-radio-toggle{margin-left:58px}.mf-radio .mf-radio-copy h3{font-size:12px}.mf-radio .mf-radio-copy p{font-size:13px}}
+@media(max-width:700px){.mf-radio{gap:14px;padding:18px;flex-wrap:wrap}.mf-radio .mf-radio-record{width:58px;height:58px;align-self:flex-start}.mf-radio .mf-radio-logo{width:36px;height:36px}.mf-radio .mf-radio-copy{flex-basis:calc(100% - 72px)}.mf-radio .mf-radio-controls{margin-left:72px}.mf-radio .mf-radio-copy h3{font-size:12px}.mf-radio .mf-radio-copy p{font-size:13px}}
 /* Keep the radio compact despite the site's general section spacing rule. */
 #radio.mf-radio-home{padding-top:0!important;padding-bottom:0!important;scroll-margin-top:90px!important}
 .archive-grid>.mf-radio{align-self:start}

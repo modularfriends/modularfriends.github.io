@@ -14,16 +14,24 @@
   let status = 'Loading track list…';
   slots.forEach(slot => {
     slot.classList.add('mf-radio');
-    slot.innerHTML = `<img class="mf-radio-logo" src="${new URL('../assets/modular-friends-logo-black.png', base)}" alt="Modular Friends" width="64" height="64"><div class="mf-radio-copy"><h3>MODULAR FRIENDS RADIO</h3><p class="mf-radio-title">Live recordings &amp; improvisations</p><p class="mf-radio-artist"></p><p class="mf-radio-status" role="status" aria-live="polite"></p></div><button class="mf-radio-toggle" type="button" disabled>PLAY</button>`;
-    slot.querySelector('button').addEventListener('click', toggle);
+    slot.innerHTML = `<div class="mf-radio-record"><img class="mf-radio-logo" src="${new URL('../assets/modular-friends-logo-white.png', base)}" alt="Modular Friends" width="64" height="64"></div><div class="mf-radio-copy"><h3>MODULAR FRIENDS RADIO</h3><p class="mf-radio-title">Live recordings &amp; improvisations</p><p class="mf-radio-artist"></p><p class="mf-radio-status" role="status" aria-live="polite"></p></div><div class="mf-radio-controls" role="group" aria-label="Radio controls"><button class="mf-radio-toggle" type="button" disabled>PLAY</button><button class="mf-radio-next" type="button" aria-label="Play next shuffled track" disabled>NEXT</button></div>`;
+    slot.querySelector('.mf-radio-toggle').addEventListener('click', toggle);
+    slot.querySelector('.mf-radio-next').addEventListener('click', () => {
+      if (!tracks.length) return;
+      wanted = true;
+      if (failed.size >= tracks.length) { failed.clear(); queue = []; }
+      next();
+    });
   });
   function render() {
     slots.forEach(slot => {
       slot.querySelector('.mf-radio-title').textContent = current?.title || 'Live recordings & improvisations';
       slot.querySelector('.mf-radio-artist').textContent = current?.artist || '';
       slot.querySelector('.mf-radio-status').textContent = status;
-      const button = slot.querySelector('button');
+      slot.classList.toggle('is-playing', wanted && !loading && !audio.paused);
+      const button = slot.querySelector('.mf-radio-toggle');
       button.disabled = !tracks.length;
+      slot.querySelector('.mf-radio-next').disabled = !tracks.length;
       button.textContent = wanted ? 'PAUSE' : 'PLAY';
       button.setAttribute('aria-label', wanted ? 'Pause Modular Friends Radio' : 'Play Modular Friends Radio');
       button.setAttribute('aria-pressed', String(wanted));
@@ -80,7 +88,7 @@
   }
   audio.addEventListener('ended', () => { if (wanted) next(); });
   audio.addEventListener('error', () => { if (audio.error) skip(generation); });
-  audio.addEventListener('waiting', () => { if (wanted) { status = 'Buffering…'; render(); watch(generation); } });
+  audio.addEventListener('waiting', () => { if (wanted) { loading = true; status = 'Buffering…'; render(); watch(generation); } });
   audio.addEventListener('playing', () => { if (wanted) { loading = false; clearTimeout(timer); status = 'Playing · shuffled without repeats'; render(); } });
   audio.addEventListener('timeupdate', () => { if (wanted && !audio.paused && audio.readyState >= 3) clearTimeout(timer); });
   fetch(new URL('tracks.json', base), {cache: 'no-cache'}).then(r => {
@@ -93,7 +101,7 @@
       if (!['https:', 'http:'].includes(url.protocol)) return false;
       seen.add(t.id); return true;
     });
-    status = tracks.length ? `${tracks.length} recordings · press Play to listen` : 'Radio recordings will be available soon.';
+    status = tracks.length ? 'Press Play to listen · shuffled without repeats' : 'Radio recordings will be available soon.';
     render();
   }).catch(() => { status = 'Track list unavailable. Please reload to retry.'; render(); });
 })();
