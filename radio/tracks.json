@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T16:59:37.704074+00:00",
+  "updatedAt": "2026-11-24T21:15:08.254317+00:00",
   "tracks": [
     {
       "id": "11PXFJx4-AGdE5oKmFuzSXbx64NV5usQ_",
@@ -9,11 +9,32 @@
       "duration": 168.0
     },
     {
+      "id": "133zDfZcyt7Qc-lTpVUQ0l04Et0njPPgA",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 09",
+      "src": "media/133zDfZcyt7Qc-lTpVUQ0l04Et0njPPgA.mp3",
+      "duration": 425.7
+    },
+    {
+      "id": "13FDl0CLJ8aqrPq40IWyqu1eS8bCTpBt_",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 10",
+      "src": "media/13FDl0CLJ8aqrPq40IWyqu1eS8bCTpBt_.mp3",
+      "duration": 103.56
+    },
+    {
       "id": "13WO4cK7Cl7eBdfVGD15j55-dFulwPVyL",
       "artist": "MASA TRIPPIN × AGAVA",
       "title": "REC SESSION 2 - track 2",
       "src": "media/13WO4cK7Cl7eBdfVGD15j55-dFulwPVyL.mp3",
       "duration": 170.25
+    },
+    {
+      "id": "15kD36JTtAIPS9ZQLZ2eiF3P-zbapmzCR",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 13",
+      "src": "media/15kD36JTtAIPS9ZQLZ2eiF3P-zbapmzCR.mp3",
+      "duration": 183.74
     },
     {
       "id": "16INYgOnkZu1WPMwiDpfXZNPnCvqQLlzp",
@@ -30,11 +51,25 @@
       "duration": 390.86
     },
     {
+      "id": "1Aq8VgPkSovV3Cf28xPpKXXYL2OFE92bU",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 05",
+      "src": "media/1Aq8VgPkSovV3Cf28xPpKXXYL2OFE92bU.mp3",
+      "duration": 528.3
+    },
+    {
       "id": "1BHCIg71mVu_-aqly3Im1zJzJqCKUpDWR",
       "artist": "AGAVA × SPILLED AMBIANCES × WAYWARD ATOM",
       "title": "NATURE ADDITION 1 - track 2",
       "src": "media/1BHCIg71mVu_-aqly3Im1zJzJqCKUpDWR.mp3",
       "duration": 420.0
+    },
+    {
+      "id": "1BLxL4uRkkl9NVpgetfVClyi1KEn0bP_v",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 12",
+      "src": "media/1BLxL4uRkkl9NVpgetfVClyi1KEn0bP_v.mp3",
+      "duration": 206.64
     },
     {
       "id": "1BPgOCkpuOPD7PsTlGicXT9IBBe0O-EFp",
@@ -77,6 +112,41 @@
       "title": "MASIVE",
       "src": "media/1IcEABnECrgdpSt-Q4Hk-V19WxeW-uUt7.mp3",
       "duration": 269.25
+    },
+    {
+      "id": "1KCeOBCWdjRFxicIdk-s5BxwFlHGW7u7j",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 06",
+      "src": "media/1KCeOBCWdjRFxicIdk-s5BxwFlHGW7u7j.mp3",
+      "duration": 288.73
+    },
+    {
+      "id": "1MysYjsswGlEwctFmcfyIIsmyHJf81mgg",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 02",
+      "src": "media/1MysYjsswGlEwctFmcfyIIsmyHJf81mgg.mp3",
+      "duration": 442.88
+    },
+    {
+      "id": "1NrExuVeqAAHVIC0FbMYjJbVoc5h1AlQ9",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 14",
+      "src": "media/1NrExuVeqAAHVIC0FbMYjJbVoc5h1AlQ9.mp3",
+      "duration": 321.66
+    },
+    {
+      "id": "1WDiBlkV7x_nFAlzncF1DDOj2n27raDKp",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 01",
+      "src": "media/1WDiBlkV7x_nFAlzncF1DDOj2n27raDKp.mp3",
+      "duration": 442.88
+    },
+    {
+      "id": "1XiAlKtzEeZj_Pb2Z-sUGS3KERbYuG_iz",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 11",
+      "src": "media/1XiAlKtzEeZj_Pb2Z-sUGS3KERbYuG_iz.mp3",
+      "duration": 264.87
     },
     {
       "id": "1ZgdQol3p7epqKm4PtNi1t-O3ERkoAd9x",
@@ -128,6 +198,13 @@
       "duration": 480.0
     },
     {
+      "id": "1uuhQ-9AmKeJMS2-Tq1OtaMKE3toJlQSU",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 04",
+      "src": "media/1uuhQ-9AmKeJMS2-Tq1OtaMKE3toJlQSU.mp3",
+      "duration": 87.81
+    },
+    {
       "id": "1ws2Q6-sVuZjMCz1QyDCQ7AhDXBLM8hHT",
       "artist": "AGAVA × MASA TRIPPIN",
       "title": "live from Tofu and sound design",
@@ -140,6 +217,27 @@
       "title": "AMB 1",
       "src": "media/1xHViMoN85otcuzDiXXb1E4Mc2nyq0jfZ.mp3",
       "duration": 616.0
+    },
+    {
+      "id": "1xUXArcyZT72EjXmzZ9rI9EVfFj3AtIBL",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 08",
+      "src": "media/1xUXArcyZT72EjXmzZ9rI9EVfFj3AtIBL.mp3",
+      "duration": 143.65
+    },
+    {
+      "id": "1ylGJv9s8DouQoY5PN7lsTSpJZBRtuyPC",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 07",
+      "src": "media/1ylGJv9s8DouQoY5PN7lsTSpJZBRtuyPC.mp3",
+      "duration": 161.31
+    },
+    {
+      "id": "1z_yC-GccYwRRm62HuNblAOWxiVEK15F1",
+      "artist": "AGAVA × Spilled Ambiences × Wayward Atom",
+      "title": "Nature Edition 2 · Track 03",
+      "src": "media/1z_yC-GccYwRRm62HuNblAOWxiVEK15F1.mp3",
+      "duration": 397.06
     }
   ]
 }
