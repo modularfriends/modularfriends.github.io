@@ -4,6 +4,10 @@ from unittest.mock import patch
 spec=importlib.util.spec_from_file_location('sync',Path(__file__).parents[1]/'scripts/sync-radio.py')
 sync=importlib.util.module_from_spec(spec);spec.loader.exec_module(sync)
 class SyncTest(unittest.TestCase):
+ def test_canonical_artist_name(self):
+  for value in ["Neroli Kid", "NEROLI KID", "nerolikid", "Nerolikid"]:
+   self.assertEqual(sync.canonical_artist_name(value),"Nerolikid")
+  self.assertEqual(sync.metadata("NEROLI KID - PEDALBOARD.mp3"),("Nerolikid","PEDALBOARD"))
  def test_nature_edition_filename_metadata(self):
   for name,track in [('1-m f n e 2 _ 2 -1.wav',1),('Untitled 14-m f n e 2 _ 2 -14 [2026-11-24 163448].wav',14)]:
    self.assertEqual(sync.metadata(name),('AGAVA × Spilled Ambiences × Wayward Atom',f'Nature Edition 2 · Track {track:02}'))

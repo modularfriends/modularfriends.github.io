@@ -14,9 +14,12 @@ ROOT = Path(__file__).resolve().parents[1]
 RADIO = ROOT / 'radio'
 FOLDER = '1U9dLhBoj3UwKXGvL6SrDRJlKNa8NfhYS'
 
+def canonical_artist_name(text):
+    return re.sub(r"\bneroli\s*kid\b", "Nerolikid", text, flags=re.I)
+
 def metadata(name):
     name = re.sub(r'^Copy of\s+', '', Path(name).stem, flags=re.I).strip()
-    name = name.replace('_', ' ')
+    name = canonical_artist_name(name.replace('_', ' '))
     nature = re.search(r'\bm\s*f\s*n\s*e\s*2\s+2\s*-\s*(\d+)', name, flags=re.I)
     if nature:
         return 'AGAVA × Spilled Ambiences × Wayward Atom', f'Nature Edition 2 · Track {int(nature.group(1)):02}'
@@ -76,7 +79,7 @@ def sync(entries=None):
             info = probe(target)
             artist,title = metadata(item['path'])
             tags = info.get('format',{}).get('tags',{})
-            tracks.append({'id':fid,'artist':tags.get('artist') or artist,'title':tags.get('title') or title,'src':'media/'+target.name,'duration':round(float(info['format']['duration']),2)})
+            tracks.append({'id':fid,'artist':canonical_artist_name(tags.get('artist') or artist),'title':canonical_artist_name(tags.get('title') or title),'src':'media/'+target.name,'duration':round(float(info['format']['duration']),2)})
         except Exception as error:
             errors.append(fid)
             print('Unable to prepare',fid,type(error).__name__,flush=True)
