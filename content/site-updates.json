@@ -1,0 +1,74 @@
+{
+  "calendar": "https://luma.com/modularfriends",
+  "youtube_channel_id": "UCW2AfTLV2mZ76JIVBLo7ZAg",
+  "events": [
+    {
+      "id": "meetup-2026-12-05",
+      "title": "MODULAR FRIENDS MEETUP",
+      "date": "2026-12-05",
+      "starts_at": "2026-12-05T16:00:00+04:00",
+      "ends_at": "2026-12-05T22:00:00+04:00",
+      "date_label": "5 December 2026 | 16:00",
+      "venue": "Plant Lovers — Niaghvari St. 4A, Tbilisi",
+      "description": "Explore modular synthesis, meet the artists and join a collective live jam session.",
+      "support": "Donations are welcome. All donations support Modular Friends.",
+      "image": "assets/mf-meetup-2026-12-05.webp",
+      "page": "events/2026-12-05-meetup.html",
+      "luma": "https://luma.com/afkx210b",
+      "ra": "https://ra.co/events/2595834",
+      "status": "upcoming",
+      "completion_confirmed": false,
+      "artists": "",
+      "visuals": "",
+      "media_folder": "https://drive.google.com/drive/folders/1UWl5vNSR0gk993TBNXdiGFP-sjynUVpk"
+    }
+  ],
+  "current_video": {
+    "id": "pX8Eu15SmY8",
+    "title": "LIAMEORE — Masa Trippin × AGAVA",
+    "description": "A new audiovisual collaboration, now on YouTube. LIAMEORE’s visuals meet a recording session by Masa Trippin and AGAVA.",
+    "visuals": [
+      {
+        "name": "LIAMEORE",
+        "url": "https://www.instagram.com/liameore.play/"
+      }
+    ],
+    "sound": [
+      {
+        "name": "Masa Trippin",
+        "url": "https://www.instagram.com/zamasatrippin/"
+      },
+      {
+        "name": "AGAVA",
+        "url": "https://www.instagram.com/levan_shan/"
+      }
+    ],
+    "published_at": null,
+    "publication_note": "Existing public release; retain until a newer public release and its publication date are verified."
+  },
+  "videos": [
+    {
+      "id": "pX8Eu15SmY8",
+      "title": "LIAMEORE — Masa Trippin × AGAVA",
+      "description": "A new audiovisual collaboration, now on YouTube. LIAMEORE’s visuals meet a recording session by Masa Trippin and AGAVA.",
+      "visuals": [
+        {
+          "name": "LIAMEORE",
+          "url": "https://www.instagram.com/liameore.play/"
+        }
+      ],
+      "sound": [
+        {
+          "name": "Masa Trippin",
+          "url": "https://www.instagram.com/zamasatrippin/"
+        },
+        {
+          "name": "AGAVA",
+          "url": "https://www.instagram.com/levan_shan/"
+        }
+      ],
+      "published_at": null,
+      "publication_note": "Existing public release; retain until a newer public release and its publication date are verified."
+    }
+  ]
+}
